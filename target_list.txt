@@ -1,0 +1,1002 @@
+[
+../hw4/modified_copied2.hwp
+../hw4/folder/subdir/newdirectory/modify.hwp
+../hw4/folder/modify_copied.hwp
+],
+[
+../hw4/b.sgml
+../hw4/folder/subdir/b.sgml
+../hw4/folder/subdir/b.sgml 2
+],
+[
+../hw4/best_img_04_pc 2.jpg
+../hw4/folder/subdir/newdirectory/best_img_04_pc.jpg
+../hw4/newfolder/best_img_04_pc3.jpg
+],
+[
+../hw4/CODE_OF_CONDUCT.md
+../hw4/CODE_OF_CONDUCT 2.md
+../hw4/folder/CODE_OF_CONDUCT.md
+../hw4/folder/subdir/newdirectory/CODE_OF_CONDUCT.md
+../hw4/dir/CODE_OF_CONDUCT.md
+],
+[
+../hw4/flutter_export_environment.sh
+../hw4/folder/flutter_export_environment 2.sh
+../hw4/dir/flutter_export_environment.sh
+],
+[
+../hw4/Flutter-Debug.xcconfig
+../hw4/folder/subdir/newdirectory/Flutter-Debug 3.xcconfig
+../hw4/folder/subdir/Flutter-Debug.xcconfig
+../hw4/folder/Flutter-Debug 2.xcconfig
+../hw4/dir/Flutter-Debug.xcconfig
+../hw4/newfolder/Flutter-Debug.xcconfig
+],
+[
+../hw4/CODE_OF_CONDUCT 2.md
+../hw4/folder/CODE_OF_CONDUCT.md
+../hw4/folder/subdir/newdirectory/CODE_OF_CONDUCT.md
+../hw4/dir/CODE_OF_CONDUCT.md
+],
+[
+../hw4/bb.doc
+../hw4/folder/subdir/bb.doc
+../hw4/dir/bb.doc
+../hw4/newfolder/bb.doc
+],
+[
+../hw4/discrete_math.pdf
+../hw4/folder/subdir/discrete_math_copied.pdf
+],
+[
+../hw4/기세_Script.txt
+../hw4/folder/subdir/기세_Script.txt
+../hw4/folder/subdir/기세_Script 2.txt
+../hw4/dir/기세_Script.txt
+../hw4/newfolder/기세_Script.txt
+],
+[
+../hw4/image_copied.png
+../hw4/image.png
+],
+[
+../hw4/index.html
+../hw4/dir/index 복사본.html
+],
+[
+../hw4/CMakeLists.txt
+../hw4/folder/CMakeLists.txt
+../hw4/dir/CMakeLists.txt
+],
+[
+../hw4/generated_plugins.cmake
+../hw4/folder/subdir/newdirectory/generated_plugins 3.cmake
+../hw4/generated_plugins 2.cmake
+../hw4/newfolder/generated_plugins.cmake
+],
+[
+../hw4/fileornot.c
+../hw4/folder/fileornot_copied.c
+../hw4/folder/fileornot_same.c
+],
+[
+../hw4/gen_localizations.stamp
+../hw4/folder/gen_localizations.stamp
+../hw4/folder/subdir/newdirectory/gen_localizations.stamp
+../hw4/folder/subdir/gen_localizations.stamp 2
+../hw4/newfolder/gen_localizations.stamp
+../hw4/newfolder/gen_localizations.stamp 3
+],
+[
+../hw4/e.log
+../hw4/dir/e.log
+../hw4/e 2.log
+../hw4/newfolder/e.log
+],
+[
+../hw4/ink_sparkle.frag
+../hw4/folder/subdir/newdirectory/ink_sparkle 2.frag
+../hw4/folder/subdir/ink_sparkle 3.frag
+../hw4/ink_sparkle 3.frag
+../hw4/newfolder/ink_sparkle 3.frag
+],
+[
+../hw4/hw1_22000141.cpp
+../hw4/folder/subdir/newdirectory/hw1_22000141.cpp
+../hw4/folder/subdir/hw1_22000141.cpp
+],
+[
+../hw4/b.sh
+../hw4/folder/subdir/b.sh
+../hw4/dir/b.sh
+../hw4/newfolder/b.sh
+],
+[
+../hw4/AppFrameworkInfo 2.plist
+../hw4/folder/AppFrameworkInfo 3.plist
+../hw4/AppFrameworkInfo.plist
+../hw4/dir/AppFrameworkInfo 4.plist
+],
+[
+../hw4/win32_window.h
+../hw4/newfolder/win32_window 2.h
+],
+[
+../hw4/fontello 2.css
+../hw4/folder/subdir/newdirectory/fontello.css
+],
+[
+../hw4/btn-stop-pc-gray.png
+../hw4/folder/subdir/btn-stop-pc-gray 2.png
+],
+[
+../hw4/7fb78f2b6cb44eaef601.jpg
+../hw4/folder/subdir/newdirectory/7fb78f2b6cb44eaef601.jpg
+../hw4/folder/subdir/7fb78f2b6cb44eaef601.jpg
+],
+[
+../hw4/hw5.dSYM/Contents/Resources/DWARF/hw5
+../hw4/folder/subdir/hw5.dSYM/Contents/Resources/DWARF/hw5
+../hw4/dir/hw5.dSYM/Contents/Resources/DWARF/hw5
+../hw4/newfolder/hw5.dSYM/Contents/Resources/DWARF/hw5
+],
+[
+../hw4/hw5.dSYM/Contents/Info.plist
+../hw4/folder/subdir/hw5.dSYM/Contents/Info.plist
+../hw4/dir/hw5.dSYM/Contents/Info.plist
+../hw4/newfolder/hw5.dSYM/Contents/Info.plist
+],
+[
+../hw4/folder/NOTICES.Z
+../hw4/folder/subdir/NOTICES.Z
+../hw4/dir/NOTICES.Z
+],
+[
+../hw4/folder/fileornot_copied.c
+../hw4/folder/fileornot_same.c
+],
+[
+../hw4/folder/CODE_OF_CONDUCT.md
+../hw4/folder/subdir/newdirectory/CODE_OF_CONDUCT.md
+../hw4/dir/CODE_OF_CONDUCT.md
+],
+[
+../hw4/folder/main-kv-arr-r.png
+../hw4/folder/subdir/newdirectory/main-kv-arr-r.png
+../hw4/folder/subdir/main-kv-arr-r.png
+../hw4/dir/main-kv-arr-r.png
+],
+[
+../hw4/folder/flutter_export_environment 2.sh
+../hw4/dir/flutter_export_environment.sh
+],
+[
+../hw4/folder/AppFrameworkInfo 3.plist
+../hw4/AppFrameworkInfo.plist
+../hw4/dir/AppFrameworkInfo 4.plist
+],
+[
+../hw4/folder/4f2a58af27abc49ecf55570043bbf938.cache.dill.track.dill
+../hw4/folder/subdir/4f2a58af27abc49ecf55570043bbf938.cache.dill.track.dill
+../hw4/newfolder/4f2a58af27abc49ecf55570043bbf938.cache.dill.track.dill
+],
+[
+../hw4/folder/CMakeLists.txt
+../hw4/dir/CMakeLists.txt
+],
+[
+../hw4/folder/gen_localizations.stamp
+../hw4/folder/subdir/newdirectory/gen_localizations.stamp
+../hw4/folder/subdir/gen_localizations.stamp 2
+../hw4/newfolder/gen_localizations.stamp
+../hw4/newfolder/gen_localizations.stamp 3
+],
+[
+../hw4/folder/output_copied.txt
+../hw4/folder/subdir/output_copied_2.txt
+../hw4/output.txt
+],
+[
+../hw4/folder/editform 3.jsp
+../hw4/editform.jsp
+../hw4/dir/editform 2.jsp
+],
+[
+../hw4/folder/algorithm.pdf
+../hw4/algorithm_copied.pdf
+],
+[
+../hw4/folder/subdir/NOTICES.Z
+../hw4/dir/NOTICES.Z
+],
+[
+../hw4/folder/subdir/newdirectory/CODE_OF_CONDUCT.md
+../hw4/dir/CODE_OF_CONDUCT.md
+],
+[
+../hw4/folder/subdir/newdirectory/modify.hwp
+../hw4/folder/modify_copied.hwp
+],
+[
+../hw4/folder/subdir/newdirectory/generated_plugins 3.cmake
+../hw4/generated_plugins 2.cmake
+../hw4/newfolder/generated_plugins.cmake
+],
+[
+../hw4/folder/subdir/newdirectory/README 2.md
+../hw4/folder/subdir/README.md
+../hw4/README.md
+../hw4/newfolder/README 3.md
+../hw4/newfolder/README.md
+],
+[
+../hw4/folder/subdir/newdirectory/kernel_blob 2.bin
+../hw4/folder/subdir/kernel_blob.bin
+../hw4/newfolder/kernel_blob 3.bin
+],
+[
+../hw4/folder/subdir/newdirectory/main-kv-arr-r.png
+../hw4/folder/subdir/main-kv-arr-r.png
+../hw4/dir/main-kv-arr-r.png
+],
+[
+../hw4/folder/subdir/newdirectory/gen_localizations.stamp
+../hw4/folder/subdir/gen_localizations.stamp 2
+../hw4/newfolder/gen_localizations.stamp
+../hw4/newfolder/gen_localizations.stamp 3
+],
+[
+../hw4/folder/subdir/newdirectory/hw1_22000141.cpp
+../hw4/folder/subdir/hw1_22000141.cpp
+],
+[
+../hw4/folder/subdir/newdirectory/GeneratedPluginRegistrant 3.swift
+../hw4/folder/subdir/GeneratedPluginRegistrant.swift
+../hw4/GeneratedPluginRegistrant 2.swift
+],
+[
+../hw4/folder/subdir/newdirectory/png_image_copied2.png
+../hw4/folder/subdir/png_image.png
+../hw4/dir/png_image_copied.png
+],
+[
+../hw4/folder/subdir/newdirectory/7fb78f2b6cb44eaef601.jpg
+../hw4/folder/subdir/7fb78f2b6cb44eaef601.jpg
+],
+[
+../hw4/folder/subdir/newdirectory/generated_plugin_registrant 3.h
+../hw4/folder/subdir/generated_plugin_registrant 2.h
+../hw4/generated_plugin_registrant.h
+],
+[
+../hw4/folder/subdir/newdirectory/mymy.sql
+../hw4/dir/mymy.sql
+../hw4/newfolder/mymy.sql
+],
+[
+../hw4/folder/subdir/newdirectory/hw2_DB.zip
+../hw4/folder/subdir/hw2_DB.zip
+../hw4/hw2_DB.zip
+../hw4/newfolder/hw2_DB.zip
+],
+[
+../hw4/folder/subdir/newdirectory/Runner 2.xcodeproj/project.pbxproj
+../hw4/Runner.xcodeproj/project.pbxproj
+../hw4/newfolder/Runner 3.xcodeproj/project.pbxproj
+],
+[
+../hw4/folder/subdir/newdirectory/Runner 2.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+../hw4/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+../hw4/newfolder/Runner 3.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+],
+[
+../hw4/folder/subdir/newdirectory/Runner 2.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+../hw4/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+../hw4/newfolder/Runner 3.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+],
+[
+../hw4/folder/subdir/newdirectory/Runner 2.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+../hw4/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+../hw4/newfolder/Runner 3.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+],
+[
+../hw4/folder/subdir/newdirectory/Runner 2.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme
+../hw4/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme
+../hw4/newfolder/Runner 3.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme
+],
+[
+../hw4/folder/subdir/newdirectory/Flutter-Debug 3.xcconfig
+../hw4/folder/subdir/Flutter-Debug.xcconfig
+../hw4/folder/Flutter-Debug 2.xcconfig
+../hw4/dir/Flutter-Debug.xcconfig
+../hw4/newfolder/Flutter-Debug.xcconfig
+],
+[
+../hw4/folder/subdir/newdirectory/instaLogo 3.png
+../hw4/folder/subdir/instaLogo 3.png
+../hw4/instaLogo 3.png
+../hw4/instaLogo.png
+../hw4/newfolder/instaLogo 2.png
+],
+[
+../hw4/folder/subdir/newdirectory/data_set_train.xlsx
+../hw4/folder/subdir/data_set_train 3.xlsx
+../hw4/data_set_train 2.xlsx
+],
+[
+../hw4/folder/subdir/newdirectory/10814(merge) 3.cpp
+../hw4/folder/subdir/10814(merge) 4.cpp
+../hw4/10814(merge) 2.cpp
+../hw4/dir/10814(merge).cpp
+],
+[
+../hw4/folder/subdir/newdirectory/Arita-buriM-subset.woff
+../hw4/folder/Arita-buriM-subset.woff
+../hw4/newfolder/Arita-buriM-subset.woff
+],
+[
+../hw4/folder/subdir/newdirectory/ink_sparkle 2.frag
+../hw4/folder/subdir/ink_sparkle 3.frag
+../hw4/ink_sparkle 3.frag
+../hw4/newfolder/ink_sparkle 3.frag
+],
+[
+../hw4/folder/subdir/newdirectory/d.htm
+../hw4/folder/subdir/d.htm
+../hw4/folder/d.htm
+../hw4/d.htm
+],
+[
+../hw4/folder/subdir/newdirectory/a.bin
+../hw4/folder/subdir/a.bin
+../hw4/a.bin
+../hw4/dir/a.bin
+],
+[
+../hw4/folder/subdir/newdirectory/d.man
+../hw4/folder/d.man
+../hw4/d.man
+../hw4/dir/d.man
+],
+[
+../hw4/folder/subdir/newdirectory/symbolize_win32.inc
+../hw4/folder/subdir/symbolize_win32.inc 2
+../hw4/folder/subdir/symbolize_win32.inc
+../hw4/symbolize_win32.inc
+../hw4/newfolder/symbolize_win32.inc
+],
+[
+../hw4/folder/subdir/newdirectory/c.iml
+../hw4/folder/subdir/c.iml
+../hw4/folder/c.iml
+../hw4/c.iml
+../hw4/newfolder/c.iml
+],
+[
+../hw4/folder/subdir/newdirectory/build.gradle
+../hw4/folder/subdir/build.gradle
+../hw4/dir/build.gradle
+],
+[
+../hw4/folder/subdir/newdirectory/manifest.json
+../hw4/folder/subdir/manifest.json
+../hw4/newfolder/manifest.json
+],
+[
+../hw4/folder/subdir/newdirectory/dd.php
+../hw4/dir/dd.php
+../hw4/dd.php
+],
+[
+../hw4/folder/subdir/newdirectory/jquery-3.1.1.min.js
+../hw4/folder/subdir/jquery-3.1.1.min.js
+../hw4/folder/jquery-3.1.1.min.js
+../hw4/jquery-3.1.1.min.js
+],
+[
+../hw4/folder/subdir/newdirectory/test.c
+../hw4/dir/test_copied.c
+../hw4/newfolder/test.c
+../hw4/test.c
+],
+[
+../hw4/folder/subdir/newdirectory/W2_Classwork.pdf
+../hw4/newfolder/W2_Classwork.pdf
+../hw4/W2_Classwork.pdf
+],
+[
+../hw4/folder/subdir/newdirectory/MaterialIcons-Regular.otf
+../hw4/folder/MaterialIcons-Regular.otf
+../hw4/newfolder/MaterialIcons-Regular.otf
+],
+[
+../hw4/folder/subdir/newdirectory/homework.ipynb
+../hw4/folder/subdir/homework.ipynb
+../hw4/folder/homework_copied.ipynb
+../hw4/homework.ipynb
+],
+[
+../hw4/folder/subdir/newdirectory/JDBCUtil 2.java
+../hw4/folder/subdir/JDBCUtil.java
+../hw4/newfolder/JDBCUtil 3.java
+../hw4/JDBCUtil.java
+],
+[
+../hw4/folder/subdir/newdirectory/a.lsm
+../hw4/newfolder/a.lsm
+],
+[
+../hw4/folder/subdir/newdirectory/d.jpg
+../hw4/folder/subdir/d.jpg
+../hw4/newfolder/d.jpg
+../hw4/d.jpg
+],
+[
+../hw4/folder/subdir/newdirectory/abseil-umbrella.h
+../hw4/folder/subdir/abseil-umbrella.h
+../hw4/folder/abseil-umbrella.h
+../hw4/dir/abseil-umbrella.h
+../hw4/newfolder/abseil-umbrella.h
+],
+[
+../hw4/folder/subdir/newdirectory/data.txt
+../hw4/dir/data 2.txt
+../hw4/dir/data.txt
+../hw4/data.txt
+],
+[
+../hw4/folder/subdir/newdirectory/d.vmp
+../hw4/folder/subdir/d.vmp
+../hw4/dir/d.vmp
+../hw4/d.vmp
+],
+[
+../hw4/folder/subdir/newdirectory/a.diff
+../hw4/folder/subdir/a.diff
+../hw4/folder/a.diff
+../hw4/a.diff
+],
+[
+../hw4/folder/subdir/newdirectory/best_img_04_pc.jpg
+../hw4/newfolder/best_img_04_pc3.jpg
+],
+[
+../hw4/folder/subdir/b.sgml
+../hw4/folder/subdir/b.sgml 2
+],
+[
+../hw4/folder/subdir/Flutter-Debug.xcconfig
+../hw4/folder/Flutter-Debug 2.xcconfig
+../hw4/dir/Flutter-Debug.xcconfig
+../hw4/newfolder/Flutter-Debug.xcconfig
+],
+[
+../hw4/folder/subdir/main-kv-arr-r.png
+../hw4/dir/main-kv-arr-r.png
+],
+[
+../hw4/folder/subdir/bb.doc
+../hw4/dir/bb.doc
+../hw4/newfolder/bb.doc
+],
+[
+../hw4/folder/subdir/기세_Script.txt
+../hw4/folder/subdir/기세_Script 2.txt
+../hw4/dir/기세_Script.txt
+../hw4/newfolder/기세_Script.txt
+],
+[
+../hw4/folder/subdir/4f2a58af27abc49ecf55570043bbf938.cache.dill.track.dill
+../hw4/newfolder/4f2a58af27abc49ecf55570043bbf938.cache.dill.track.dill
+],
+[
+../hw4/folder/subdir/symbolize_win32.inc 2
+../hw4/folder/subdir/symbolize_win32.inc
+../hw4/symbolize_win32.inc
+../hw4/newfolder/symbolize_win32.inc
+],
+[
+../hw4/folder/subdir/Runner.rc 3
+../hw4/newfolder/Runner.rc 2
+../hw4/Runner.rc
+],
+[
+../hw4/folder/subdir/gen_localizations.stamp 2
+../hw4/newfolder/gen_localizations.stamp
+../hw4/newfolder/gen_localizations.stamp 3
+],
+[
+../hw4/folder/subdir/b.sh
+../hw4/dir/b.sh
+../hw4/newfolder/b.sh
+],
+[
+../hw4/folder/subdir/png_image.png
+../hw4/dir/png_image_copied.png
+],
+[
+../hw4/folder/subdir/codelab_rebuild.yaml
+../hw4/dir/codelab_rebuild.yaml
+../hw4/newfolder/codelab_rebuild.yaml
+],
+[
+../hw4/folder/subdir/output_copied_2.txt
+../hw4/output.txt
+],
+[
+../hw4/folder/subdir/hw5.dSYM/Contents/Resources/DWARF/hw5
+../hw4/dir/hw5.dSYM/Contents/Resources/DWARF/hw5
+../hw4/newfolder/hw5.dSYM/Contents/Resources/DWARF/hw5
+],
+[
+../hw4/folder/subdir/hw5.dSYM/Contents/Info.plist
+../hw4/dir/hw5.dSYM/Contents/Info.plist
+../hw4/newfolder/hw5.dSYM/Contents/Info.plist
+],
+[
+../hw4/folder/subdir/data_set_train 3.xlsx
+../hw4/data_set_train 2.xlsx
+],
+[
+../hw4/folder/subdir/kernel_blob.bin
+../hw4/newfolder/kernel_blob 3.bin
+],
+[
+../hw4/folder/subdir/기세_Script 2.txt
+../hw4/dir/기세_Script.txt
+../hw4/newfolder/기세_Script.txt
+],
+[
+../hw4/folder/subdir/hw2_DB.zip
+../hw4/hw2_DB.zip
+../hw4/newfolder/hw2_DB.zip
+],
+[
+../hw4/folder/subdir/f.info
+../hw4/dir/f.info
+../hw4/newfolder/f.info
+],
+[
+../hw4/folder/subdir/a.exe
+../hw4/a.exe
+../hw4/dir/a.exe
+../hw4/newfolder/a.exe
+],
+[
+../hw4/folder/subdir/README.md
+../hw4/README.md
+../hw4/newfolder/README 3.md
+../hw4/newfolder/README.md
+],
+[
+../hw4/folder/subdir/instaLogo 3.png
+../hw4/instaLogo 3.png
+../hw4/instaLogo.png
+../hw4/newfolder/instaLogo 2.png
+],
+[
+../hw4/folder/subdir/generated_plugin_registrant 2.h
+../hw4/generated_plugin_registrant.h
+],
+[
+../hw4/folder/subdir/d.htm
+../hw4/folder/d.htm
+../hw4/d.htm
+],
+[
+../hw4/folder/subdir/a.bin
+../hw4/a.bin
+../hw4/dir/a.bin
+],
+[
+../hw4/folder/subdir/symbolize_win32.inc
+../hw4/symbolize_win32.inc
+../hw4/newfolder/symbolize_win32.inc
+],
+[
+../hw4/folder/subdir/10814(merge) 4.cpp
+../hw4/10814(merge) 2.cpp
+../hw4/dir/10814(merge).cpp
+],
+[
+../hw4/folder/subdir/a 2.ps
+../hw4/folder/subdir/a.ps
+../hw4/dir/a.ps
+../hw4/a.ps
+],
+[
+../hw4/folder/subdir/ink_sparkle 3.frag
+../hw4/ink_sparkle 3.frag
+../hw4/newfolder/ink_sparkle 3.frag
+],
+[
+../hw4/folder/subdir/c.iml
+../hw4/folder/c.iml
+../hw4/c.iml
+../hw4/newfolder/c.iml
+],
+[
+../hw4/folder/subdir/build.gradle
+../hw4/dir/build.gradle
+],
+[
+../hw4/folder/subdir/GeneratedPluginRegistrant.swift
+../hw4/GeneratedPluginRegistrant 2.swift
+],
+[
+../hw4/folder/subdir/manifest.json
+../hw4/newfolder/manifest.json
+],
+[
+../hw4/folder/subdir/jquery-3.1.1.min.js
+../hw4/folder/jquery-3.1.1.min.js
+../hw4/jquery-3.1.1.min.js
+],
+[
+../hw4/folder/subdir/google-services.json
+../hw4/folder/google-services.json
+../hw4/dir/google-services.json
+],
+[
+../hw4/folder/subdir/a.ps
+../hw4/dir/a.ps
+../hw4/a.ps
+],
+[
+../hw4/folder/subdir/final_2.docx
+../hw4/final.docx
+../hw4/dir/final_2.docx
+../hw4/dir/final_3.docx
+],
+[
+../hw4/folder/subdir/homework.ipynb
+../hw4/folder/homework_copied.ipynb
+../hw4/homework.ipynb
+],
+[
+../hw4/folder/subdir/archive.zip
+../hw4/dir/archive_copied.zip
+../hw4/dir/archive.zip
+../hw4/archive.zip
+],
+[
+../hw4/folder/subdir/d.jpg
+../hw4/newfolder/d.jpg
+../hw4/d.jpg
+],
+[
+../hw4/folder/subdir/JDBCUtil.java
+../hw4/newfolder/JDBCUtil 3.java
+../hw4/JDBCUtil.java
+],
+[
+../hw4/folder/subdir/abseil-umbrella.h
+../hw4/folder/abseil-umbrella.h
+../hw4/dir/abseil-umbrella.h
+../hw4/newfolder/abseil-umbrella.h
+],
+[
+../hw4/folder/subdir/d.vmp
+../hw4/dir/d.vmp
+../hw4/d.vmp
+],
+[
+../hw4/folder/subdir/a.diff
+../hw4/folder/a.diff
+../hw4/a.diff
+],
+[
+../hw4/folder/Flutter-Debug 2.xcconfig
+../hw4/dir/Flutter-Debug.xcconfig
+../hw4/newfolder/Flutter-Debug.xcconfig
+],
+[
+../hw4/folder/Arita-buriM-subset.woff
+../hw4/newfolder/Arita-buriM-subset.woff
+],
+[
+../hw4/folder/d.htm
+../hw4/d.htm
+],
+[
+../hw4/folder/homework_copied.ipynb
+../hw4/homework.ipynb
+],
+[
+../hw4/folder/d.man
+../hw4/d.man
+../hw4/dir/d.man
+],
+[
+../hw4/folder/c.iml
+../hw4/c.iml
+../hw4/newfolder/c.iml
+],
+[
+../hw4/folder/jquery-3.1.1.min.js
+../hw4/jquery-3.1.1.min.js
+],
+[
+../hw4/folder/fontello.svg
+../hw4/fontello 2.svg
+../hw4/dir/fontello.svg
+../hw4/fontello.svg
+],
+[
+../hw4/folder/google-services.json
+../hw4/dir/google-services.json
+],
+[
+../hw4/folder/content.js
+../hw4/content 2.js
+../hw4/dir/content 3.js
+],
+[
+../hw4/folder/main.class
+../hw4/dir/main.class
+../hw4/main.class
+],
+[
+../hw4/folder/MaterialIcons-Regular.otf
+../hw4/newfolder/MaterialIcons-Regular.otf
+],
+[
+../hw4/folder/analysis_options 2.yaml
+../hw4/analysis_options.yaml
+],
+[
+../hw4/folder/abseil-umbrella.h
+../hw4/dir/abseil-umbrella.h
+../hw4/newfolder/abseil-umbrella.h
+],
+[
+../hw4/folder/a.diff
+../hw4/a.diff
+],
+[
+../hw4/generated_plugins 2.cmake
+../hw4/newfolder/generated_plugins.cmake
+],
+[
+../hw4/Runner.xcodeproj/project.pbxproj
+../hw4/newfolder/Runner 3.xcodeproj/project.pbxproj
+],
+[
+../hw4/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+../hw4/newfolder/Runner 3.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+],
+[
+../hw4/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+../hw4/newfolder/Runner 3.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+],
+[
+../hw4/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+../hw4/newfolder/Runner 3.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+],
+[
+../hw4/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme
+../hw4/newfolder/Runner 3.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme
+],
+[
+../hw4/content 2.js
+../hw4/dir/content 3.js
+],
+[
+../hw4/hw2_DB.zip
+../hw4/newfolder/hw2_DB.zip
+],
+[
+../hw4/video.mp4
+../hw4/newfolder/video2.mp4
+],
+[
+../hw4/editform.jsp
+../hw4/dir/editform 2.jsp
+],
+[
+../hw4/fontello 2.svg
+../hw4/dir/fontello.svg
+../hw4/fontello.svg
+],
+[
+../hw4/a.exe
+../hw4/dir/a.exe
+../hw4/newfolder/a.exe
+],
+[
+../hw4/main.dart
+../hw4/newfolder/main 2.dart
+],
+[
+../hw4/README.md
+../hw4/newfolder/README 3.md
+../hw4/newfolder/README.md
+],
+[
+../hw4/instaLogo 3.png
+../hw4/instaLogo.png
+../hw4/newfolder/instaLogo 2.png
+],
+[
+../hw4/10814(merge) 2.cpp
+../hw4/dir/10814(merge).cpp
+],
+[
+../hw4/AppFrameworkInfo.plist
+../hw4/dir/AppFrameworkInfo 4.plist
+],
+[
+../hw4/a.bin
+../hw4/dir/a.bin
+],
+[
+../hw4/d.man
+../hw4/dir/d.man
+],
+[
+../hw4/instaLogo.png
+../hw4/newfolder/instaLogo 2.png
+],
+[
+../hw4/symbolize_win32.inc
+../hw4/newfolder/symbolize_win32.inc
+],
+[
+../hw4/final.docx
+../hw4/dir/final_2.docx
+../hw4/dir/final_3.docx
+],
+[
+../hw4/ink_sparkle 3.frag
+../hw4/newfolder/ink_sparkle 3.frag
+],
+[
+../hw4/collect.gif
+../hw4/newfolder/collect2.gif
+],
+[
+../hw4/c.iml
+../hw4/newfolder/c.iml
+],
+[
+../hw4/dir/Flutter-Debug.xcconfig
+../hw4/newfolder/Flutter-Debug.xcconfig
+],
+[
+../hw4/dir/bb.doc
+../hw4/newfolder/bb.doc
+],
+[
+../hw4/dir/기세_Script.txt
+../hw4/newfolder/기세_Script.txt
+],
+[
+../hw4/dir/e.log
+../hw4/e 2.log
+../hw4/newfolder/e.log
+],
+[
+../hw4/dir/b.sh
+../hw4/newfolder/b.sh
+],
+[
+../hw4/dir/codelab_rebuild.yaml
+../hw4/newfolder/codelab_rebuild.yaml
+],
+[
+../hw4/dir/hw5.dSYM/Contents/Resources/DWARF/hw5
+../hw4/newfolder/hw5.dSYM/Contents/Resources/DWARF/hw5
+],
+[
+../hw4/dir/hw5.dSYM/Contents/Info.plist
+../hw4/newfolder/hw5.dSYM/Contents/Info.plist
+],
+[
+../hw4/dir/mymy.sql
+../hw4/newfolder/mymy.sql
+],
+[
+../hw4/dir/test_copied.c
+../hw4/newfolder/test.c
+../hw4/test.c
+],
+[
+../hw4/dir/f.info
+../hw4/newfolder/f.info
+],
+[
+../hw4/dir/a.exe
+../hw4/newfolder/a.exe
+],
+[
+../hw4/dir/dd.php
+../hw4/dd.php
+],
+[
+../hw4/dir/fontello.svg
+../hw4/fontello.svg
+],
+[
+../hw4/dir/a.ps
+../hw4/a.ps
+],
+[
+../hw4/dir/archive_copied.zip
+../hw4/dir/archive.zip
+../hw4/archive.zip
+],
+[
+../hw4/dir/main.class
+../hw4/main.class
+],
+[
+../hw4/dir/findeq.c
+../hw4/newfolder/findeq.c
+../hw4/findeq.c
+],
+[
+../hw4/dir/final_2.docx
+../hw4/dir/final_3.docx
+],
+[
+../hw4/dir/archive.zip
+../hw4/archive.zip
+],
+[
+../hw4/dir/data 2.txt
+../hw4/dir/data.txt
+../hw4/data.txt
+],
+[
+../hw4/dir/abseil-umbrella.h
+../hw4/newfolder/abseil-umbrella.h
+],
+[
+../hw4/dir/data.txt
+../hw4/data.txt
+],
+[
+../hw4/dir/d.vmp
+../hw4/d.vmp
+],
+[
+../hw4/e 2.log
+../hw4/newfolder/e.log
+],
+[
+../hw4/newfolder/Runner.rc 2
+../hw4/Runner.rc
+],
+[
+../hw4/newfolder/gen_localizations.stamp
+../hw4/newfolder/gen_localizations.stamp 3
+],
+[
+../hw4/newfolder/README 3.md
+../hw4/newfolder/README.md
+],
+[
+../hw4/newfolder/last_build_run 2.json
+../hw4/last_build_run.json
+],
+[
+../hw4/newfolder/test.c
+../hw4/test.c
+],
+[
+../hw4/newfolder/W2_Classwork.pdf
+../hw4/W2_Classwork.pdf
+],
+[
+../hw4/newfolder/findeq.c
+../hw4/findeq.c
+],
+[
+../hw4/newfolder/d.jpg
+../hw4/d.jpg
+],
+[
+../hw4/newfolder/JDBCUtil 3.java
+../hw4/JDBCUtil.java
+],

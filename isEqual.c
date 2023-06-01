@@ -22,7 +22,7 @@ void print_file_list()
             printf("\t[\n") ;
             for (ptr = itr ; ptr != NULL ; ptr = ptr->same)
                 printf("\t\t%s,\n", ptr->filename) ;
-            printf("\t]\n") ;
+            printf("\t],\n") ;
         }
         printf("]\n") ;
     }
@@ -34,14 +34,14 @@ void print_file_list()
             perror(output_file) ;
             return ;
         }
-
+        int cnt = 0 ;
         fprintf(file, "\n[\n") ;
         for (itr = file_list_head.diff ; itr != NULL ; itr = itr->diff)
         {
-            fprintf(file, "\t[\n") ;
+            fprintf(file, "\tlevel : %d\n\t[\n", cnt++) ;
             for (ptr = itr ; ptr != NULL ; ptr = ptr->same)
                 fprintf(file, "\t\t%s,\n", ptr->filename) ;
-            fprintf(file, "\t]\n") ;
+            fprintf(file, "\t],\n") ;
         }
         fprintf(file, "]\n") ;
 

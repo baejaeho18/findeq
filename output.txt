@@ -1,5 +1,268 @@
-.//findeq_trial3 copy.c
-.//findeq_trial3.c
-.//findeq_trial3.c
-.//.git/logs/HEAD
-.//findeq_ver3 copy.c
+
+[
+	[
+		target/._data_set_train 2.xlsx,
+	]
+	[
+		target/._data_set_train 2.xlsx,
+	]
+	[
+		target/._content 2.js,
+	]
+	[
+		target/._fontello 2.svg,
+		target/._btn-stop-pc-gray.png,
+		target/folder/subdir/._7fb78f2b6cb44eaef601.jpg,
+		target/._jquery-3.1.1.min.js,
+		target/folder/subdir/newdirectory/._main-kv-arr-r.png,
+		target/._instaLogo 3.png,
+		target/folder/subdir/newdirectory/._best_img_04_pc.jpg,
+		target/._best_img_04_pc 2.jpg,
+		target/folder/subdir/newdirectory/._7fb78f2b6cb44eaef601.jpg,
+		target/._collect.gif,
+	]
+	[
+		target/._data.txt,
+		target/folder/subdir/newdirectory/._jquery-3.1.1.min.js,
+	]
+	[
+		target/._JDBCUtil.java,
+		target/folder/._main-kv-arr-r.png,
+		target/folder/subdir/newdirectory/._instaLogo 3.png,
+		target/folder/._fontello.svg,
+		target/folder/subdir/newdirectory/._Arita-buriM-subset.woff,
+		target/folder/._content.js,
+	]
+	[
+		target/._homework.ipynb,
+		target/folder/subdir/newdirectory/._fontello.css,
+	]
+	[
+		target/._image.png,
+		target/folder/._jquery-3.1.1.min.js,
+		target/folder/subdir/._main-kv-arr-r.png,
+	]
+	[
+		target/._main.dart,
+	]
+	[
+		target/._algorithm_copied.pdf,
+	]
+	[
+		target/._7fb78f2b6cb44eaef601.jpg,
+		target/._fontello.svg,
+		target/._fontello 2.css,
+		target/._instaLogo.png,
+		target/dir/._main-kv-arr-r.png,
+	]
+	[
+		target/._fontello.svg,
+		target/newfolder/._collect2.gif,
+		target/dir/._fontello.svg,
+		target/folder/._algorithm.pdf,
+	]
+	[
+		target/._hw1_22000141.cpp,
+		target/newfolder/._Arita-buriM-subset.woff,
+		target/folder/subdir/newdirectory/._data.txt,
+	]
+	[
+		target/dir/._data.txt,
+		target/newfolder/._instaLogo 2.png,
+		target/dir/._content 3.js,
+		target/._btn-stop-pc-gray.png,
+	]
+	[
+		target/dir/._test_copied.c,
+		target/._jquery-3.1.1.min.js,
+	]
+	[
+		target/dir/._final_3.docx,
+		target/._instaLogo 3.png,
+	]
+	[
+		target/dir/._data 2.txt,
+	]
+	[
+		target/dir/._archive.zip,
+		target/dir/._final_2.docx,
+	]
+	[
+		target/dir/._.DS_Store,
+		target/folder/subdir/._.DS_Store,
+		target/folder/subdir/newdirectory/._data.txt,
+	]
+	[
+		target/dir/._editform 2.jsp,
+	]
+	[
+		target/dir/.___듄꼮__Script.txt,
+	]
+	[
+		target/dir/._google-services.json,
+	]
+	[
+		target/dir/._png_image_copied.png,
+	]
+	[
+		target/._modified_copied2.hwp,
+	]
+	[
+		target/._image_copied.png,
+	]
+	[
+		target/._editform.jsp,
+	]
+	[
+		target/._archive.zip,
+		target/folder/._modify_copied.hwp,
+	]
+	[
+		target/newfolder/._main 2.dart,
+	]
+	[
+		target/newfolder/._JDBCUtil 3.java,
+	]
+	[
+		target/newfolder/._.DS_Store,
+		target/folder/subdir/newdirectory/._.DS_Store,
+	]
+	[
+		target/newfolder/._video2.mp4,
+	]
+	[
+		target/newfolder/._MaterialIcons-Regular.otf,
+	]
+	[
+		target/newfolder/._hw2_DB.zip,
+	]
+	[
+		target/newfolder/._W2_Classwork.pdf,
+	]
+	[
+		target/newfolder/.___듄꼮__Script.txt,
+		target/folder/subdir/.___듄꼮__Script.txt,
+	]
+	[
+		target/._final.docx,
+		target/._hw2_DB.zip,
+	]
+	[
+		target/._.DS_Store,
+	]
+	[
+		target/._output.txt,
+	]
+	[
+		target/._findeq_ver2-2.c,
+		target/folder/subdir/._final_2.docx,
+		target/folder/subdir/newdirectory/._.DS_Store,
+	]
+	[
+		target/._W2_Classwork.pdf,
+	]
+	[
+		target/._video.mp4,
+	]
+	[
+		target/.___듄꼮__Script.txt,
+	]
+	[
+		target/folder/._homework_copied.ipynb,
+	]
+	[
+		target/folder/._output_copied.txt,
+	]
+	[
+		target/folder/._.DS_Store,
+	]
+	[
+		target/folder/subdir/._JDBCUtil.java,
+		target/folder/subdir/._homework.ipynb,
+	]
+	[
+		target/folder/subdir/._homework.ipynb,
+		target/folder/subdir/newdirectory/._.DS_Store,
+	]
+	[
+		target/folder/subdir/._hw1_22000141.cpp,
+	]
+	[
+		target/folder/subdir/newdirectory/._homework.ipynb,
+		target/folder/subdir/._hw1_22000141.cpp,
+	]
+	[
+		target/folder/subdir/newdirectory/._hw1_22000141.cpp,
+	]
+	[
+		target/folder/subdir/newdirectory/._png_image_copied2.png,
+	]
+	[
+		target/folder/subdir/newdirectory/._JDBCUtil 2.java,
+	]
+	[
+		target/folder/subdir/newdirectory/._modify.hwp,
+	]
+	[
+		target/folder/subdir/newdirectory/._data_set_train.xlsx,
+	]
+	[
+		target/folder/subdir/newdirectory/._MaterialIcons-Regular.otf,
+	]
+	[
+		target/folder/subdir/newdirectory/._hw2_DB.zip,
+	]
+	[
+		target/folder/subdir/newdirectory/._W2_Classwork.pdf,
+		target/folder/._MaterialIcons-Regular.otf,
+	]
+	[
+		target/folder/subdir/._NOTICES.Z,
+	]
+	[
+		target/folder/subdir/._data_set_train 3.xlsx,
+	]
+	[
+		target/folder/subdir/._png_image.png,
+	]
+	[
+		target/folder/subdir/._archive.zip,
+	]
+	[
+		target/folder/subdir/.___듄꼮__Script 2.txt,
+	]
+	[
+		target/folder/subdir/._jquery-3.1.1.min.js,
+	]
+	[
+		target/folder/subdir/._output_copied_2.txt,
+	]
+	[
+		target/folder/subdir/._instaLogo 3.png,
+	]
+	[
+		target/folder/subdir/._btn-stop-pc-gray 2.png,
+	]
+	[
+		target/folder/subdir/._hw2_DB.zip,
+	]
+	[
+		target/folder/subdir/._google-services.json,
+		target/folder/subdir/._btn-stop-pc-gray 2.png,
+	]
+	[
+		target/folder/subdir/._discrete_math_copied.pdf,
+	]
+	[
+		target/folder/._Arita-buriM-subset.woff,
+	]
+	[
+		target/folder/._editform 3.jsp,
+	]
+	[
+		target/folder/._google-services.json,
+	]
+	[
+		target/._discrete_math.pdf,
+	]
+]

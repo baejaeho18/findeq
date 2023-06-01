@@ -1,0 +1,5 @@
+.//findeq_trial3 copy.c
+.//findeq_trial3.c
+.//findeq_trial3.c
+.//.git/logs/HEAD
+.//findeq_ver3 copy.c

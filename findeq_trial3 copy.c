@@ -3,7 +3,7 @@
 #include <string.h>
 #include <dirent.h>
 #include <sys/stat.h>
-#include <pthread.h>
+#include <pthread.h> // 스레드 처리를 위한 라이브러리 포함
 #include <unistd.h>
 #include <signal.h>
 #include <time.h>
@@ -13,8 +13,6 @@
 #define MAX_PATH 1024
 #define MAX_THREADS 64 // 스레드 최대 개수를 정의
 
-int dup_cnt ;
-char *output_file ;
 pthread_mutex_t fileListLock;  // 파일 목록에 대한 락
 
 // 여러개의 인자를 스레드로 보내기 위한 구조체 정의
@@ -41,6 +39,9 @@ void initialize_file_list(FileList* fileList) {
 }
 
 void add_file(FileList* fileList, char* filename) {
+    printf("DEBUG :: add_file 실행\n");
+
+    // printf("제발 .. Filename: %s\n", filename);
 
     if (fileList->size >= fileList->capacity) {
         int newCapacity = (fileList->capacity == 0) ? 1 : fileList->capacity * 2;
@@ -59,24 +60,8 @@ void add_file(FileList* fileList, char* filename) {
 
 void print_file_list(const FileList* fileList) {
     printf("\n!!!!!! print file list !!!!!!\n");
-    if (output_file == NULL)
-    {
-        for (int i = 0; i < fileList->size; i++) {
-            printf("%s\n", fileList->files[i]);
-        }
-    }
-    else
-    {
-        FILE * file = fopen(output_file, "w") ;
-        if (file == NULL)
-        {
-            perror(output_file) ;
-            return ;
-        }
-        for (int i = 0; i < fileList->size; i++) {
-            fprintf(file, "%s\n", fileList->files[i]);
-        }
-        fclose(file) ;
+    for (int i = 0; i < fileList->size; i++) {
+        printf("%s\n", fileList->files[i]);
     }
 }
 
@@ -89,20 +74,11 @@ void handle_sigint() {
 
 void keycontrol(int sig)
 {
-    if(sig == SIGINT)
+    if(sig==SIGINT)
         puts("          CTRL+C pressed");
 
     // print current results
     handle_sigint();
-}
-
-void timeout(int sig)
-{
-    if (sig == SIGINT)
-    {    
-        printf("The numbef of identical file : %d\n", dup_cnt) ;
-        alarm(5) ; 
-    }
 }
 
 // are_files_equal 함수는 파일 하나와 파일 목록 전체를 비교합니다.
@@ -144,8 +120,8 @@ int are_files_equal(const char * path1, const char * path2)
     char buf1[BUF_SIZE], buf2[BUF_SIZE] ;
     size_t bytes_read1, bytes_read2 ;
     do
-    { 
-        bytes_read1 = fread(buf1, 1, BUF_SIZE, file1) ;  
+    {
+        bytes_read1 = fread(buf1, 1, BUF_SIZE, file1) ;
         bytes_read2 = fread(buf2, 1, BUF_SIZE, file2) ;
 
         if (bytes_read1 != bytes_read2 || memcmp(buf1, buf2, bytes_read1) != 0)
@@ -172,19 +148,13 @@ void * compare_files_thread(void * arg)
 
     printf("Thread %d started\n", args->thread_id) ;  // 스레드가 시작될 때 메시지 출력
 
-    // if (args->thread_id == 1) { sigint 이후 잘 출력되는지 확인하기 위한 조건문
-    //     printf("id is 1\n\n");
-    //     int n;
-    //     scanf("%d", &n);
-    // }
-
     // 이 스레드가 담당할 파일 범위를 계산
     int start = args->thread_id *  args->file_count / args->num_threads ;
     int end = (args->thread_id + 1) *  args->file_count / args->num_threads ;
 
+    int flag = 0;
     for (int i = start ; i < end ; i++)
     {
-        int flag = 0;
         for (int j = i + 1 ; j < args->file_count ; j++)
         { // j를 i 이후의 파일을 가리키도록 초기화
             // 두 파일이 같은지 검사한다.
@@ -195,19 +165,24 @@ void * compare_files_thread(void * arg)
                 if (flag == 0) { // i번째 파일을 한 번만 list에 넣는다.
                     char* divider = "[";
                     add_file(&fileList, divider); 
+                    printf("%s", args->file_list[i]);
                     add_file(&fileList, args->file_list[i]);
                     flag = 1;
                 }
                 // 두 파일이 같으면 그 사실을 출력한다.
                 printf("'%s' and '%s' are equal, thread number: %d\n", args->file_list[i], args->file_list[j], args->thread_id) ;
                 add_file(&fileList, args->file_list[j]);
+                
             }
+
             if (flag == 1 && j == args->file_count-1) {
                 char* divider = "],";
                 add_file(&fileList, divider); 
             } 
-            // flag = 0;
-            pthread_mutex_unlock(&fileListLock); 
+            
+
+            pthread_mutex_unlock(&fileListLock);  // 락 획득
+
         }
     }
 
@@ -268,14 +243,10 @@ void check_files_in_dir(const char * dir_path, char (* file_list)[MAX_PATH], int
 
 int main(int argc, char * argv[])
 {
-    printf("start the program. 👍\n");
-    
     clock_t start, end ;
     double cpu_time_used ;
 
     signal(SIGINT, keycontrol) ;
-    signal(SIGALRM, timeout) ;
-    alarm(5) ;
 
     start = clock() ;
     initialize_file_list(&fileList);
@@ -290,7 +261,6 @@ int main(int argc, char * argv[])
     int opt ;
     int num_threads ;
     int bound_size = 1024;
-    output_file = NULL ;
     char * target_directory ;
 
     int i = 1 ;
@@ -304,17 +274,18 @@ int main(int argc, char * argv[])
                 strtok(argv[i++], "=") ;
                 bound_size = atoi(strtok(NULL, "=")) ;
                 break ;
-            case 'o':
+            case'o':
                 strtok(argv[i++], "=") ;
-                output_file = strtok(NULL, "=") ;
+                target_directory = strtok(NULL, "=") ;
                 break ;
             default:
                 exit(EXIT_FAILURE) ;
         }
     }
     // target directory path는 항상 마지막에 입력한다는 전제 하에 가능
-    target_directory = argv[i] ;    // i -> optind also okay
-    printf("%d %d %s %s\n", num_threads, bound_size, output_file, target_directory) ;
+    if (target_directory == NULL)
+        target_directory = argv[i] ;    // i -> optind also okay
+    // printf("%d %d %s\n", num_threads, bound_size, target_directory) ;
 
     if (num_threads <= 0 || MAX_THREADS < num_threads)
     {
@@ -364,11 +335,11 @@ int main(int argc, char * argv[])
             return EXIT_FAILURE ;
         }
     }
-    
+
     print_file_list(&fileList);
 
     for (int i = 0; i < fileList.size; i++) {
-        free(fileList.files[i]);
+    free(fileList.files[i]);
     }
     free(fileList.files);
 

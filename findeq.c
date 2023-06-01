@@ -14,19 +14,21 @@
 #define MAX_THREADS 64 // 스레드 최대 개수를 정의
 
 int dup_cnt ;
+char *output_file ;
+filePath file_list[MAX_FILES] ;
+pthread_mutex_t lock ;
 
 // 같은 내용이라는 flag를 위한 구조체 정의
 typedef struct
 {
     char filepath[MAX_PATH] ;
     int flag ;
-} fileLists;
-
+} filePath;
 
 // 여러개의 인자를 스레드로 보내기 위한 구조체 정의
 typedef struct
 {
-    fileLists (*file_list) ; // 파일 리스트
+    filePath (*file_list) ; // 파일 리스트
     int file_count ; // 파일 개수
     int thread_id ; // 스레드 ID
     int num_threads ; // 스레드 개수
@@ -127,41 +129,15 @@ void *compare_files_thread(void *arg)
     printf("Thread %d started\n", args->thread_id) ;  // 스레드가 시작될 때 메시지 출력
 
     // 이 스레드가 담당할 파일 범위를 계산
-    // int start = args->thread_id * args->file_count / args->num_threads ;
-    // int end = (args->thread_id + 1) * args->file_count / args->num_threads ;
-    
-    // for (int i = start ; i < end ; i++)
-    // {
-    //     if (args->file_list[i].flag != 0)
-    //         continue ;
-
-    //     int cnt = 0 ;
-    //     for (int j = i + 1 ; j < args->file_count ; j++)
-    //     { // j를 i 이후의 파일을 가리키도록 초기화
-    //         // 두 파일이 같은지 검사한다.
-    //         if (are_files_equal(args->file_list[i].filepath, args->file_list[j].filepath))
-    //         {
-    //             // 두 파일이 같으면 그 사실을 출력한다.
-    //             printf("'%s' and '%s' are equal, thread number: %d\n", args->file_list[i].filepath, args->file_list[j].filepath, args->thread_id) ;
-    //             if (cnt == 0)
-    //             {
-    //                 // lock
-    //                 cnt = dup_cnt++ ;
-    //                 args->file_list[i].flag = cnt ;
-    //                 // unlock
-    //             }
-    //             args->file_list[j].flag = cnt ;
-    //         }
-    //     }
-    // }
-
     int start ;
     int end ;
     int flag_cnt ;
+    int thread_cnt ;
     for (int i = 0 ; i < args->file_count ; i++)
     {
         if (args->file_list[i].flag != 0)
             continue ;
+        thread_cnt = args->num_threads ;
         flag_cnt = dup_cnt ;
         args->file_list[i].flag = flag_cnt ;
         // start, end by divide
@@ -175,10 +151,16 @@ void *compare_files_thread(void *arg)
             if (are_files_equal(args->file_list[i].filepath, args->file_list[j].filepath))
             {
                 // 두 파일이 같으면 그 사실을 출력한다.
-                printf("'%s' and '%s' are equal, thread number: %d\n", args->file_list[i].filepath, args->file_list[j].filepath, args->thread_id) ;
+                // printf("'%s' and '%s' are equal, thread number: %d\n", args->file_list[i].filepath, args->file_list[j].filepath, args->thread_id) ;
                 args->file_list[j].flag = flag_cnt ;
             }
         }
+
+        pthread_mutex_lock(&lock) ;
+        thread_cnt-- ;
+        pthread_mutex_unlock(&lock) ;
+
+        while(thread_cnt != 0) ;    // file_list[i]에 대한 비교가 모든 쓰레드에서 끝나면 pass
     }
 
     printf("Thread %d finished\n", args->thread_id) ;  // 스레드 작업 완료 시 메시지 출력
@@ -187,7 +169,7 @@ void *compare_files_thread(void *arg)
 }
 
 // 지정된 디렉토리 내의 모든 파일을 검사하고 파일 목록에 추가하는 함수
-void check_files_in_dir(const char *dir_path, fileLists file_list[], int *file_count, int bound_size)
+void check_files_in_dir(const char *dir_path, filePath file_list[], int *file_count, int bound_size)
 {
     // opendir 함수를 통해 디렉토리를 열고, 이 디렉토리의 스트림 정보를 얻는다.
     DIR *dir = opendir(dir_path) ;
@@ -303,7 +285,6 @@ int main(int argc, char *argv[])
 
     // 파일 리스트를 저장할 배열 선언
     // char file_list[MAX_FILES][MAX_PATH] ;
-    fileLists file_list[MAX_FILES] ;    // 전역변수로 바꿔야 할 수도 !!! check !!!
     int file_count = 0 ; // 파일 개수를 0으로 초기화
 
     // 디렉토리에서 파일을 찾고 리스트에 추가
@@ -345,5 +326,5 @@ int main(int argc, char *argv[])
     cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC ;
     printf("Execution time: %f seconds\n", cpu_time_used) ;
 
-    termination() ; // save or print the result     !!! check!!!
+    print_file_list() ; // save or print the result     !!! check!!!
 }

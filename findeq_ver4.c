@@ -15,12 +15,19 @@
 
 int dup_cnt ;
 char *output_file ;
-pthread_mutex_t fileListLock;  // 파일 목록에 대한 락
+pthread_mutex_t lock;  // 파일 목록에 대한 락
+
+// 같은 내용이라는 flag를 위한 구조체 정의
+typedef struct
+{
+    char filepath[MAX_PATH] ;
+    int flag ;
+} filePath;
 
 // 여러개의 인자를 스레드로 보내기 위한 구조체 정의
 typedef struct
 {
-    char (* file_list)[MAX_PATH] ; // 파일 리스트
+    filePath (*file_list) ; // 파일 리스트
     int file_count ; // 파일 개수
     int thread_id ; // 스레드 ID
     int num_threads ; // 스레드 개수
@@ -28,8 +35,8 @@ typedef struct
 
 typedef struct {
     char** files;
-    int size; // 실제 사이즈
-    int capacity; // 할당받을 메모리
+    unsigned long size; // 실제 파일의 개수
+    unsigned long capacity; // 현재 용량
 } FileList;
 
 FileList fileList;
@@ -43,7 +50,7 @@ void initialize_file_list(FileList* fileList) {
 void add_file(FileList* fileList, char* filename) {
 
     if (fileList->size >= fileList->capacity) {
-        int newCapacity = (fileList->capacity == 0) ? 1 : fileList->capacity * 2;
+        unsigned long newCapacity = (fileList->capacity == 0) ? 1 : fileList->capacity * 2 ;
         char** newFiles = realloc(fileList->files, newCapacity * sizeof(char*));
         if (newFiles == NULL) {
             fprintf(stderr, "Failed to allocate memory\n");
@@ -165,50 +172,52 @@ int are_files_equal(const char * path1, const char * path2)
     return 1 ;
 }
 
-void * compare_files_thread(void * arg)
+int thread_cnt ;
+void *compare_files_thread(void *arg)
 {
-    printf("DEBUG :: compare_files_thread\n");
-    ThreadArgs * args = (ThreadArgs * )arg ; // arg를 ThreadArgs 형으로 변환
+    ThreadArgs *args = (ThreadArgs *)arg ; // arg를 ThreadArgs 형으로 변환
 
     printf("Thread %d started\n", args->thread_id) ;  // 스레드가 시작될 때 메시지 출력
 
-    // if (args->thread_id == 1) { sigint 이후 잘 출력되는지 확인하기 위한 조건문
-    //     printf("id is 1\n\n");
-    //     int n;
-    //     scanf("%d", &n);
-    // }
-
     // 이 스레드가 담당할 파일 범위를 계산
-    int start = args->thread_id *  args->file_count / args->num_threads ;
-    int end = (args->thread_id + 1) *  args->file_count / args->num_threads ;
-
-    for (int i = start ; i < end ; i++)
+    int start ;
+    int end ;
+    int flag_cnt ;
+    for (int i = 0 ; i < args->file_count ; i++)
     {
-        int flag = 0;
-        for (int j = i + 1 ; j < args->file_count ; j++)
+        if (args->file_list[i].flag != 0)
+            continue ;
+        thread_cnt = args->num_threads ;
+        flag_cnt = dup_cnt ;
+        args->file_list[i].flag = flag_cnt ;
+        // start, end by divide
+        // distribute by %
+        start = i + 1 + args->thread_id * (args->file_count - i - 1) / args->num_threads ;
+        end = i + 1 + (args->thread_id + 1) * (args->file_count - i - 1) / args->num_threads ;
+        
+        for (int j = start ; j < end ; j++)
         { // j를 i 이후의 파일을 가리키도록 초기화
             // 두 파일이 같은지 검사한다.
-            if (are_files_equal(args->file_list[i], args->file_list[j]))
+            if (are_files_equal(args->file_list[i].filepath, args->file_list[j].filepath))
             {
-                pthread_mutex_lock(&fileListLock);  // 락 획득
-
-                if (flag == 0) { // i번째 파일을 한 번만 list에 넣는다.
-                    char* divider = "[";
-                    add_file(&fileList, divider); 
-                    add_file(&fileList, args->file_list[i]);
-                    flag = 1;
-                }
                 // 두 파일이 같으면 그 사실을 출력한다.
-                printf("'%s' and '%s' are equal, thread number: %d\n", args->file_list[i], args->file_list[j], args->thread_id) ;
-                add_file(&fileList, args->file_list[j]);
+                // printf("'%s' and '%s' are equal, thread number: %d\n", args->file_list[i].filepath, args->file_list[j].filepath, args->thread_id) ;
+                args->file_list[j].flag = flag_cnt ;
+                add_file(&fileList, args->file_list[j].filepath) ;
             }
-            if (flag == 1 && j == args->file_count-1) {
-                char* divider = "],";
-                add_file(&fileList, divider); 
-            } 
-            // flag = 0;
-            pthread_mutex_unlock(&fileListLock); 
         }
+
+        pthread_mutex_lock(&lock) ;
+        thread_cnt-- ;
+        if (thread_cnt == 0)
+        {
+            dup_cnt++ ;
+            add_file(&fileList, args->file_list[i].filepath) ;
+        }
+        pthread_mutex_unlock(&lock) ;
+
+        // printf("%d", args->num_threads) ;
+        // while(thread_cnt != 0) ;    // file_list[i]에 대한 비교가 모든 쓰레드에서 끝나면 pass
     }
 
     printf("Thread %d finished\n", args->thread_id) ;  // 스레드 작업 완료 시 메시지 출력
@@ -217,7 +226,7 @@ void * compare_files_thread(void * arg)
 }
 
 // 지정된 디렉토리 내의 모든 파일을 검사하고 파일 목록에 추가하는 함수
-void check_files_in_dir(const char * dir_path, char (* file_list)[MAX_PATH], int * file_count, int bound_size)
+void check_files_in_dir(const char * dir_path, filePath file_list[], int * file_count, int bound_size)
 {
     // opendir 함수를 통해 디렉토리를 열고, 이 디렉토리의 스트림 정보를 얻는다.
     DIR * dir = opendir(dir_path) ;
@@ -226,7 +235,6 @@ void check_files_in_dir(const char * dir_path, char (* file_list)[MAX_PATH], int
         perror(dir_path) ;
         return ;
     }
-
     // readdir 함수를 통해 디렉토리 내부의 파일 또는 디렉토리를 하나씩 읽는다.
     struct dirent * entry ;
     while ((entry = readdir(dir)) != NULL)
@@ -257,7 +265,8 @@ void check_files_in_dir(const char * dir_path, char (* file_list)[MAX_PATH], int
         else if (S_ISREG(statbuf.st_mode) && bound_size < statbuf.st_size)
         {
             // 만약 일반 파일이라면, 해당 파일 경로를 파일 목록에 추가한다.
-            strncpy(file_list[* file_count], full_path, MAX_PATH) ;
+             strncpy(file_list[*file_count].filepath, full_path, MAX_PATH) ;
+            file_list[*file_count].flag = 0 ;
             (* file_count)++ ;
         }
     }
@@ -279,13 +288,6 @@ int main(int argc, char * argv[])
 
     start = clock() ;
     initialize_file_list(&fileList);
-
-    // option 처리
-    // if (argc < 3)
-    // {
-    //     fprintf(stderr, "Usage: %s <num_threads> <bound_size_of_file> <dir>\n", argv[0]) ;
-    //     return EXIT_FAILURE ;
-    // }
     
     int opt ;
     int num_threads ;
@@ -330,8 +332,9 @@ int main(int argc, char * argv[])
     }
 
     // 파일 리스트를 저장할 배열 선언
-    char file_list[MAX_FILES][MAX_PATH] ;
+    filePath file_list[MAX_FILES] ;
     int file_count = 0 ; // 파일 개수를 0으로 초기화
+    dup_cnt = 0 ;
 
     // 디렉토리에서 파일을 찾고 리스트에 추가
     check_files_in_dir(target_directory, file_list, &file_count, bound_size) ;

@@ -1,953 +1,584 @@
-
 [
 	level : 0
 	[
 		target/main.dart,
+		target/newfolder/main 2.dart,
 	],
 	level : 1
 	[
-		target/main.dart,
+		target/a.ps,
+		target/dir/a.ps,
+		target/folder/subdir/a.ps,
+		target/folder/subdir/a 2.ps,
 	],
 	level : 2
 	[
 		target/output.txt,
+		target/folder/subdir/output_copied_2.txt,
+		target/folder/output_copied.txt,
 	],
 	level : 3
 	[
 		target/CODE_OF_CONDUCT 2.md,
+		target/CODE_OF_CONDUCT.md,
+		target/dir/CODE_OF_CONDUCT.md,
 		target/folder/CODE_OF_CONDUCT.md,
+		target/folder/subdir/newdirectory/CODE_OF_CONDUCT.md,
 	],
 	level : 4
 	[
 		target/c.iml,
+		target/newfolder/c.iml,
+		target/folder/c.iml,
+		target/folder/subdir/c.iml,
+		target/folder/subdir/newdirectory/c.iml,
 	],
 	level : 5
 	[
 		target/fontello 2.css,
+		target/folder/subdir/newdirectory/fontello.css,
 	],
 	level : 6
 	[
 		target/Runner.rc,
+		target/newfolder/Runner.rc 2,
+		target/folder/subdir/Runner.rc 3,
 	],
 	level : 7
 	[
-		target/CODE_OF_CONDUCT.md,
+		target/image_copied.png,
+		target/image.png,
 	],
 	level : 8
 	[
-		target/image_copied.png,
+		target/best_img_04_pc 2.jpg,
+		target/newfolder/best_img_04_pc3.jpg,
+		target/folder/subdir/newdirectory/best_img_04_pc.jpg,
 	],
 	level : 9
 	[
-		target/best_img_04_pc 2.jpg,
+		target/__듄꼮__Script.txt,
+		target/dir/__듄꼮__Script.txt,
+		target/newfolder/__듄꼮__Script.txt,
+		target/folder/subdir/__듄꼮__Script.txt,
+		target/folder/subdir/__듄꼮__Script 2.txt,
 	],
 	level : 10
 	[
-		target/__듄꼮__Script.txt,
+		target/generated_plugins 2.cmake,
+		target/generated_plugins.cmake,
+		target/newfolder/generated_plugins.cmake,
+		target/folder/subdir/newdirectory/generated_plugins 3.cmake,
 	],
 	level : 11
 	[
-		target/generated_plugins 2.cmake,
+		target/editform.jsp,
+		target/dir/editform 2.jsp,
+		target/folder/editform 3.jsp,
 	],
 	level : 12
 	[
-		target/editform.jsp,
+		target/ink_sparkle 3.frag,
+		target/ink_sparkle.frag,
+		target/newfolder/ink_sparkle 3.frag,
+		target/folder/subdir/ink_sparkle 3.frag,
+		target/folder/subdir/newdirectory/ink_sparkle 2.frag,
 	],
 	level : 13
 	[
-		target/ink_sparkle 3.frag,
+		target/index.html,
+		target/dir/index _뉌뀳_ⓤ꼮_■꼪_⒰넫.html,
 	],
 	level : 14
 	[
-		target/index.html,
-		target/newfolder/ink_sparkle 3.frag,
-		target/folder/editform 3.jsp,
+		target/d.vmp,
+		target/dir/d.vmp,
+		target/folder/subdir/d.vmp,
+		target/folder/subdir/newdirectory/d.vmp,
 	],
 	level : 15
 	[
-		target/d.vmp,
-		target/generated_plugins.cmake,
+		target/generated_plugin_registrant.h,
+		target/folder/subdir/generated_plugin_registrant 2.h,
+		target/folder/subdir/newdirectory/generated_plugin_registrant 3.h,
 	],
 	level : 16
 	[
-		target/generated_plugin_registrant.h,
+		target/AppFrameworkInfo.plist,
+		target/dir/AppFrameworkInfo 4.plist,
+		target/AppFrameworkInfo 2.plist,
+		target/folder/AppFrameworkInfo 3.plist,
 	],
 	level : 17
 	[
-		target/AppFrameworkInfo.plist,
-		target/dir/AppFrameworkInfo 4.plist,
+		target/dir/main-kv-arr-r.png,
+		target/folder/main-kv-arr-r.png,
+		target/folder/subdir/main-kv-arr-r.png,
+		target/folder/subdir/newdirectory/main-kv-arr-r.png,
 	],
 	level : 18
 	[
-		target/dir/main-kv-arr-r.png,
+		target/dir/test_copied.c,
+		target/newfolder/test.c,
+		target/test.c,
+		target/folder/subdir/newdirectory/test.c,
 	],
 	level : 19
 	[
-		target/dir/CODE_OF_CONDUCT.md,
+		target/dir/hw5.dSYM/Contents/Resources/DWARF/hw5,
+		target/hw5.dSYM/Contents/Resources/DWARF/hw5,
+		target/newfolder/hw5.dSYM/Contents/Resources/DWARF/hw5,
+		target/folder/subdir/hw5.dSYM/Contents/Resources/DWARF/hw5,
 	],
 	level : 20
 	[
-		target/dir/__듄꼮__Script.txt,
-		target/folder/subdir/__듄꼮__Script 2.txt,
-		target/folder/subdir/newdirectory/CODE_OF_CONDUCT.md,
-		target/AppFrameworkInfo 2.plist,
-		target/test.c,
+		target/dir/hw5.dSYM/Contents/Info.plist,
+		target/hw5.dSYM/Contents/Info.plist,
+		target/newfolder/hw5.dSYM/Contents/Info.plist,
+		target/folder/subdir/hw5.dSYM/Contents/Info.plist,
 	],
 	level : 21
 	[
-		target/dir/test_copied.c,
+		target/dir/fontello.svg,
+		target/fontello.svg,
+		target/fontello 2.svg,
+		target/folder/fontello.svg,
 	],
 	level : 22
 	[
-		target/dir/d.vmp,
+		target/dir/a.exe,
+		target/a.exe,
+		target/newfolder/a.exe,
+		target/folder/subdir/a.exe,
 	],
 	level : 23
 	[
-		target/dir/hw5.dSYM/Contents/Resources/DWARF/hw5,
+		target/dir/d.man,
+		target/d.man,
+		target/folder/d.man,
+		target/folder/subdir/newdirectory/d.man,
 	],
 	level : 24
 	[
-		target/dir/hw5.dSYM/Contents/Info.plist,
+		target/dir/codelab_rebuild.yaml,
+		target/newfolder/codelab_rebuild.yaml,
+		target/folder/subdir/codelab_rebuild.yaml,
 	],
 	level : 25
 	[
-		target/dir/fontello.svg,
-		target/newfolder/hw5.dSYM/Contents/Info.plist,
-		target/folder/subdir/a.exe,
+		target/dir/mymy.sql,
+		target/newfolder/mymy.sql,
+		target/folder/subdir/newdirectory/mymy.sql,
 	],
 	level : 26
 	[
-		target/dir/a.exe,
+		target/dir/final_3.docx,
+		target/dir/final_2.docx,
+		target/final.docx,
+		target/folder/subdir/final_2.docx,
 	],
 	level : 27
 	[
-		target/dir/codelab_rebuild.yaml,
+		target/dir/e.log,
+		target/e.log,
+		target/newfolder/e.log,
+		target/e 2.log,
 	],
 	level : 28
 	[
-		target/dir/final_3.docx,
+		target/dir/main.class,
+		target/main.class,
+		target/folder/main.class,
 	],
 	level : 29
 	[
-		target/dir/e.log,
-		target/dir/final_2.docx,
+		target/dir/google-services.json,
+		target/folder/google-services.json,
+		target/folder/subdir/google-services.json,
 	],
 	level : 30
 	[
-		target/dir/.DS_Store,
+		target/dir/f.info,
+		target/newfolder/f.info,
+		target/folder/subdir/f.info,
 	],
 	level : 31
 	[
-		target/dir/main.class,
-		target/newfolder/e.log,
-		target/final.docx,
-	],
-	level : 32
-	[
-		target/dir/google-services.json,
-		target/folder/google-services.json,
-	],
-	level : 33
-	[
-		target/dir/f.info,
-	],
-	level : 34
-	[
 		target/dir/abseil-umbrella.h,
-	],
-	level : 35
-	[
-		target/dir/Flutter-Debug.xcconfig,
-	],
-	level : 36
-	[
-		target/dir/CMakeLists.txt,
-	],
-	level : 37
-	[
-		target/dir/10814(merge).cpp,
-		target/newfolder/Flutter-Debug.xcconfig,
-		target/folder/abseil-umbrella.h,
-		target/folder/subdir/10814(merge) 4.cpp,
-	],
-	level : 38
-	[
-		target/dir/content 3.js,
-	],
-	level : 39
-	[
-		target/dir/data 2.txt,
-		target/Flutter-Debug.xcconfig,
-	],
-	level : 40
-	[
-		target/dir/index _뉌뀳_ⓤ꼮_■꼪_⒰넫.html,
-	],
-	level : 41
-	[
-		target/dir/findeq.c,
-	],
-	level : 42
-	[
-		target/dir/b.sh,
-	],
-	level : 43
-	[
-		target/dir/dd.php,
-	],
-	level : 44
-	[
-		target/dir/editform 2.jsp,
-		target/flutter_export_environment.sh,
-	],
-	level : 45
-	[
-		target/dir/flutter_export_environment.sh,
-	],
-	level : 46
-	[
-		target/dir/build.gradle,
-	],
-	level : 47
-	[
-		target/dir/NOTICES.Z,
-		target/folder/flutter_export_environment 2.sh,
-	],
-	level : 48
-	[
-		target/dir/png_image_copied.png,
-		target/folder/subdir/build.gradle,
-	],
-	level : 49
-	[
-		target/dir/archive.zip,
-	],
-	level : 50
-	[
-		target/dir/data.txt,
-	],
-	level : 51
-	[
-		target/dir/archive_copied.zip,
-	],
-	level : 52
-	[
-		target/hw2_DB.zip,
-	],
-	level : 53
-	[
-		target/hw5.dSYM/Contents/Resources/DWARF/hw5,
-	],
-	level : 54
-	[
-		target/hw5.dSYM/Contents/Info.plist,
-	],
-	level : 55
-	[
-		target/README.md,
-	],
-	level : 56
-	[
-		target/fontello.svg,
-		target/fontello 2.svg,
-		target/folder/subdir/hw5.dSYM/Contents/Info.plist,
-	],
-	level : 57
-	[
-		target/ink_sparkle.frag,
-	],
-	level : 58
-	[
-		target/a.exe,
-		target/folder/subdir/newdirectory/GeneratedPluginRegistrant 3.swift,
-	],
-	level : 59
-	[
-		target/GeneratedPluginRegistrant 2.swift,
-	],
-	level : 60
-	[
-		target/findeq_ver2-2.c,
-	],
-	level : 61
-	[
-		target/10814(merge) 2.cpp,
-	],
-	level : 62
-	[
-		target/e.log,
-	],
-	level : 63
-	[
-		target/instaLogo.png,
-		target/folder/subdir/instaLogo 3.png,
-	],
-	level : 64
-	[
-		target/data_set_train 2.xlsx,
-	],
-	level : 65
-	[
-		target/.DS_Store,
-		target/e 2.log,
-	],
-	level : 66
-	[
-		target/7fb78f2b6cb44eaef601.jpg,
-	],
-	level : 67
-	[
-		target/last_build_run.json,
-	],
-	level : 68
-	[
-		target/main.class,
-	],
-	level : 69
-	[
-		target/b.sgml,
-	],
-	level : 70
-	[
-		target/newfolder/c.iml,
-	],
-	level : 71
-	[
-		target/newfolder/__듄꼮__Script.txt,
-	],
-	level : 72
-	[
-		target/newfolder/video2.mp4,
-	],
-	level : 73
-	[
-		target/newfolder/hw2_DB.zip,
-		target/folder/subdir/newdirectory/data_set_train.xlsx,
-	],
-	level : 74
-	[
-		target/newfolder/generated_plugins.cmake,
-	],
-	level : 75
-	[
-		target/newfolder/README 3.md,
-	],
-	level : 76
-	[
-		target/newfolder/hw5.dSYM/Contents/Resources/DWARF/hw5,
-	],
-	level : 77
-	[
-		target/newfolder/README.md,
-	],
-	level : 78
-	[
-		target/newfolder/JDBCUtil 3.java,
-		target/folder/subdir/README.md,
-	],
-	level : 79
-	[
-		target/newfolder/best_img_04_pc3.jpg,
-	],
-	level : 80
-	[
-		target/newfolder/a.exe,
-		target/folder/subdir/hw2_DB.zip,
-	],
-	level : 81
-	[
-		target/newfolder/collect2.gif,
-	],
-	level : 82
-	[
-		target/newfolder/codelab_rebuild.yaml,
-	],
-	level : 83
-	[
-		target/newfolder/Runner 3.xcodeproj/project.xcworkspace/contents.xcworkspacedata,
-		target/folder/subdir/newdirectory/Runner 2.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist,
-	],
-	level : 84
-	[
-		target/newfolder/Runner 3.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist,
-	],
-	level : 85
-	[
-		target/newfolder/Runner 3.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings,
-		target/folder/subdir/newdirectory/hw2_DB.zip,
-	],
-	level : 86
-	[
-		target/newfolder/Runner 3.xcodeproj/project.pbxproj,
-	],
-	level : 87
-	[
-		target/newfolder/Runner 3.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme,
-	],
-	level : 88
-	[
-		target/newfolder/.DS_Store,
-	],
-	level : 89
-	[
-		target/newfolder/win32_window 2.h,
-		target/Runner.xcodeproj/project.pbxproj,
-	],
-	level : 90
-	[
-		target/newfolder/manifest.json,
-	],
-	level : 91
-	[
-		target/newfolder/f.info,
-	],
-	level : 92
-	[
 		target/newfolder/abseil-umbrella.h,
-	],
-	level : 93
-	[
-		target/newfolder/Runner.rc 2,
-	],
-	level : 94
-	[
-		target/newfolder/W2_Classwork.pdf,
-	],
-	level : 95
-	[
-		target/newfolder/MaterialIcons-Regular.otf,
-	],
-	level : 96
-	[
-		target/newfolder/symbolize_win32.inc,
-	],
-	level : 97
-	[
-		target/newfolder/4f2a58af27abc49ecf55570043bbf938.cache.dill.track.dill,
-	],
-	level : 98
-	[
-		target/newfolder/Arita-buriM-subset.woff,
-		target/symbolize_win32.inc,
-	],
-	level : 99
-	[
-		target/newfolder/findeq.c,
-	],
-	level : 100
-	[
-		target/newfolder/last_build_run 2.json,
-	],
-	level : 101
-	[
-		target/newfolder/instaLogo 2.png,
-	],
-	level : 102
-	[
-		target/newfolder/gen_localizations.stamp,
-	],
-	level : 103
-	[
-		target/newfolder/b.sh,
-		target/folder/subdir/newdirectory/gen_localizations.stamp,
-		target/folder/subdir/instaLogo 3.png,
-	],
-	level : 104
-	[
-		target/newfolder/gen_localizations.stamp 3,
-	],
-	level : 105
-	[
-		target/newfolder/main 2.dart,
-	],
-	level : 106
-	[
-		target/newfolder/test.c,
-	],
-	level : 107
-	[
-		target/newfolder/kernel_blob 3.bin,
-	],
-	level : 108
-	[
-		target/findeq_ver3.c,
-	],
-	level : 109
-	[
-		target/CMakeLists.txt,
-	],
-	level : 110
-	[
-		target/W2_Classwork.pdf,
-	],
-	level : 111
-	[
-		target/modified_copied2.hwp,
-	],
-	level : 112
-	[
-		target/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata,
-	],
-	level : 113
-	[
-		target/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist,
-		target/folder/subdir/newdirectory/Runner 2.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist,
-	],
-	level : 114
-	[
-		target/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings,
-		target/folder/modify_copied.hwp,
-	],
-	level : 115
-	[
-		target/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme,
-	],
-	level : 116
-	[
-		target/.vscode/c_cpp_properties.json,
-	],
-	level : 117
-	[
-		target/.vscode/settings.json,
-	],
-	level : 118
-	[
-		target/collect.gif,
-	],
-	level : 119
-	[
-		target/video.mp4,
-	],
-	level : 120
-	[
-		target/analysis_options.yaml,
-	],
-	level : 121
-	[
-		target/findeq.c,
-	],
-	level : 122
-	[
-		target/fileornot.c,
-		target/folder/analysis_options 2.yaml,
-	],
-	level : 123
-	[
-		target/algorithm_copied.pdf,
-	],
-	level : 124
-	[
-		target/homework.ipynb,
-		target/folder/subdir/gen_localizations.stamp 2,
-	],
-	level : 125
-	[
-		target/gen_localizations.stamp,
-		target/folder/subdir/newdirectory/homework.ipynb,
-		target/folder/gen_localizations.stamp,
-	],
-	level : 126
-	[
-		target/b.sh,
-	],
-	level : 127
-	[
-		target/hw1_22000141.cpp,
-	],
-	level : 128
-	[
-		target/instaLogo 3.png,
-		target/folder/subdir/instaLogo 3.png,
-		target/folder/subdir/newdirectory/hw1_22000141.cpp,
-	],
-	level : 129
-	[
-		target/dd.php,
-	],
-	level : 130
-	[
-		target/discrete_math.pdf,
-	],
-	level : 131
-	[
-		target/JDBCUtil.java,
-	],
-	level : 132
-	[
-		target/findeq4.c,
-	],
-	level : 133
-	[
-		target/content 2.js,
-	],
-	level : 134
-	[
-		target/btn-stop-pc-gray.png,
-	],
-	level : 135
-	[
-		target/findeq_ver4.c,
-	],
-	level : 136
-	[
-		target/findeq,
-	],
-	level : 137
-	[
-		target/jquery-3.1.1.min.js,
-	],
-	level : 138
-	[
-		target/archive.zip,
-		target/folder/subdir/jquery-3.1.1.min.js,
-	],
-	level : 139
-	[
-		target/image.png,
-		target/folder/jquery-3.1.1.min.js,
-	],
-	level : 140
-	[
-		target/folder/main-kv-arr-r.png,
-	],
-	level : 141
-	[
-		target/folder/c.iml,
-	],
-	level : 142
-	[
-		target/folder/content.js,
-	],
-	level : 143
-	[
-		target/folder/algorithm.pdf,
-	],
-	level : 144
-	[
-		target/folder/fontello.svg,
-	],
-	level : 145
-	[
-		target/folder/.DS_Store,
-	],
-	level : 146
-	[
-		target/folder/main.class,
-	],
-	level : 147
-	[
-		target/folder/AppFrameworkInfo 3.plist,
-	],
-	level : 148
-	[
-		target/folder/fileornot_same.c,
-	],
-	level : 149
-	[
-		target/folder/fileornot_copied.c,
-	],
-	level : 150
-	[
-		target/folder/CMakeLists.txt,
-	],
-	level : 151
-	[
-		target/folder/MaterialIcons-Regular.otf,
-	],
-	level : 152
-	[
-		target/folder/4f2a58af27abc49ecf55570043bbf938.cache.dill.track.dill,
-	],
-	level : 153
-	[
-		target/folder/subdir/main-kv-arr-r.png,
-	],
-	level : 154
-	[
-		target/folder/subdir/c.iml,
-	],
-	level : 155
-	[
-		target/folder/subdir/__듄꼮__Script.txt,
-	],
-	level : 156
-	[
-		target/folder/subdir/generated_plugin_registrant 2.h,
-	],
-	level : 157
-	[
-		target/folder/subdir/ink_sparkle 3.frag,
-	],
-	level : 158
-	[
-		target/folder/subdir/d.vmp,
-	],
-	level : 159
-	[
-		target/folder/subdir/newdirectory/main-kv-arr-r.png,
-	],
-	level : 160
-	[
-		target/folder/subdir/newdirectory/c.iml,
-	],
-	level : 161
-	[
-		target/folder/subdir/newdirectory/kernel_blob 2.bin,
-	],
-	level : 162
-	[
-		target/folder/subdir/newdirectory/ink_sparkle 2.frag,
-	],
-	level : 163
-	[
-		target/folder/subdir/newdirectory/d.vmp,
-	],
-	level : 164
-	[
-		target/folder/subdir/newdirectory/generated_plugins 3.cmake,
-		target/folder/subdir/README.md,
-	],
-	level : 165
-	[
-		target/folder/subdir/newdirectory/README 2.md,
-	],
-	level : 166
-	[
-		target/folder/subdir/newdirectory/fontello.css,
-	],
-	level : 167
-	[
-		target/folder/subdir/newdirectory/generated_plugin_registrant 3.h,
-	],
-	level : 168
-	[
-		target/folder/subdir/newdirectory/JDBCUtil 2.java,
-	],
-	level : 169
-	[
-		target/folder/subdir/newdirectory/modify.hwp,
-	],
-	level : 170
-	[
-		target/folder/subdir/newdirectory/.DS_Store,
-	],
-	level : 171
-	[
-		target/folder/subdir/newdirectory/7fb78f2b6cb44eaef601.jpg,
-		target/folder/subdir/7fb78f2b6cb44eaef601.jpg,
-	],
-	level : 172
-	[
-		target/folder/subdir/newdirectory/manifest.json,
-	],
-	level : 173
-	[
+		target/folder/abseil-umbrella.h,
 		target/folder/subdir/newdirectory/abseil-umbrella.h,
 		target/folder/subdir/abseil-umbrella.h,
 	],
-	level : 174
+	level : 32
 	[
-		target/folder/subdir/newdirectory/W2_Classwork.pdf,
+		target/dir/Flutter-Debug.xcconfig,
+		target/newfolder/Flutter-Debug.xcconfig,
+		target/Flutter-Debug.xcconfig,
+		target/folder/subdir/newdirectory/Flutter-Debug 3.xcconfig,
+		target/folder/subdir/Flutter-Debug.xcconfig,
+		target/folder/Flutter-Debug 2.xcconfig,
 	],
-	level : 175
+	level : 33
 	[
-		target/folder/subdir/newdirectory/Runner 2.xcodeproj/project.xcworkspace/contents.xcworkspacedata,
+		target/dir/CMakeLists.txt,
+		target/CMakeLists.txt,
+		target/folder/CMakeLists.txt,
 	],
-	level : 176
+	level : 34
 	[
-		target/folder/subdir/newdirectory/Runner 2.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings,
-	],
-	level : 177
-	[
-		target/folder/subdir/newdirectory/Runner 2.xcodeproj/project.pbxproj,
-	],
-	level : 178
-	[
-		target/folder/subdir/newdirectory/Runner 2.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme,
-	],
-	level : 179
-	[
-		target/folder/subdir/newdirectory/MaterialIcons-Regular.otf,
-	],
-	level : 180
-	[
-		target/folder/subdir/newdirectory/symbolize_win32.inc,
-	],
-	level : 181
-	[
-		target/folder/subdir/newdirectory/Arita-buriM-subset.woff,
-	],
-	level : 182
-	[
-		target/folder/subdir/newdirectory/best_img_04_pc.jpg,
-	],
-	level : 183
-	[
-		target/folder/subdir/newdirectory/instaLogo 3.png,
-	],
-	level : 184
-	[
-		target/folder/subdir/newdirectory/dd.php,
-	],
-	level : 185
-	[
+		target/dir/10814(merge).cpp,
+		target/10814(merge) 2.cpp,
 		target/folder/subdir/newdirectory/10814(merge) 3.cpp,
 		target/folder/subdir/10814(merge) 4.cpp,
 	],
-	level : 186
+	level : 35
 	[
-		target/folder/subdir/newdirectory/build.gradle,
+		target/dir/content 3.js,
+		target/content 2.js,
+		target/folder/content.js,
 	],
-	level : 187
+	level : 36
 	[
-		target/folder/subdir/newdirectory/jquery-3.1.1.min.js,
-	],
-	level : 188
-	[
-		target/folder/subdir/newdirectory/test.c,
-	],
-	level : 189
-	[
+		target/dir/data 2.txt,
+		target/dir/data.txt,
 		target/folder/subdir/newdirectory/data.txt,
+		target/data.txt,
 	],
-	level : 190
+	level : 37
 	[
+		target/dir/findeq.c,
+		target/newfolder/findeq.c,
+		target/findeq.c,
+	],
+	level : 38
+	[
+		target/dir/b.sh,
+		target/newfolder/b.sh,
+		target/b.sh,
+		target/folder/subdir/b.sh,
+	],
+	level : 39
+	[
+		target/dir/bb.doc,
+		target/newfolder/bb.doc,
+		target/bb.doc,
+		target/folder/subdir/bb.doc,
+	],
+	level : 40
+	[
+		target/dir/a.bin,
+		target/a.bin,
+		target/folder/subdir/newdirectory/a.bin,
+		target/folder/subdir/a.bin,
+	],
+	level : 41
+	[
+		target/dir/dd.php,
+		target/dd.php,
+		target/folder/subdir/newdirectory/dd.php,
+	],
+	level : 42
+	[
+		target/dir/flutter_export_environment.sh,
+		target/flutter_export_environment.sh,
+		target/folder/flutter_export_environment 2.sh,
+	],
+	level : 43
+	[
+		target/dir/build.gradle,
+		target/folder/subdir/newdirectory/build.gradle,
+		target/folder/subdir/build.gradle,
+	],
+	level : 44
+	[
+		target/dir/NOTICES.Z,
+		target/folder/subdir/NOTICES.Z,
+		target/folder/NOTICES.Z,
+	],
+	level : 45
+	[
+		target/dir/png_image_copied.png,
 		target/folder/subdir/newdirectory/png_image_copied2.png,
-		target/folder/subdir/Flutter-Debug.xcconfig,
-	],
-	level : 191
-	[
-		target/folder/subdir/newdirectory/Flutter-Debug 3.xcconfig,
-	],
-	level : 192
-	[
-		target/folder/subdir/hw5.dSYM/Contents/Resources/DWARF/hw5,
-	],
-	level : 193
-	[
 		target/folder/subdir/png_image.png,
 	],
-	level : 194
+	level : 46
 	[
-		target/folder/subdir/Runner.rc 3,
+		target/dir/archive.zip,
+		target/dir/archive_copied.zip,
+		target/archive.zip,
+		target/folder/subdir/archive.zip,
+		target/archive.zip,
+		target/folder/subdir/archive.zip,
 	],
-	level : 195
+	level : 47
 	[
-		target/folder/subdir/discrete_math_copied.pdf,
+		target/hw2_DB.zip,
+		target/newfolder/hw2_DB.zip,
+		target/folder/subdir/hw2_DB.zip,
+		target/folder/subdir/newdirectory/hw2_DB.zip,
 	],
-	level : 196
+	level : 48
 	[
-		target/folder/subdir/codelab_rebuild.yaml,
+		target/README.md,
+		target/newfolder/README 3.md,
+		target/newfolder/README.md,
+		target/folder/subdir/newdirectory/README 2.md,
+		target/folder/subdir/README.md,
 	],
-	level : 197
+	level : 49
 	[
-		target/folder/subdir/.DS_Store,
-	],
-	level : 198
-	[
-		target/folder/subdir/data_set_train 3.xlsx,
-	],
-	level : 199
-	[
-		target/folder/subdir/manifest.json,
-	],
-	level : 200
-	[
-		target/folder/subdir/btn-stop-pc-gray 2.png,
-	],
-	level : 201
-	[
-		target/folder/subdir/google-services.json,
-	],
-	level : 202
-	[
-		target/folder/subdir/b.sgml,
-	],
-	level : 203
-	[
-		target/folder/subdir/f.info,
-	],
-	level : 204
-	[
-		target/folder/subdir/b.sgml 2,
-	],
-	level : 205
-	[
-		target/folder/subdir/output_copied_2.txt,
-	],
-	level : 206
-	[
-		target/folder/subdir/symbolize_win32.inc,
-	],
-	level : 207
-	[
+		target/GeneratedPluginRegistrant 2.swift,
+		target/folder/subdir/newdirectory/GeneratedPluginRegistrant 3.swift,
 		target/folder/subdir/GeneratedPluginRegistrant.swift,
 	],
-	level : 208
+	level : 50
 	[
-		target/folder/subdir/4f2a58af27abc49ecf55570043bbf938.cache.dill.track.dill,
+		target/findeq_ver2-2.c,
 	],
-	level : 209
+	level : 51
 	[
+		target/a.diff,
+		target/folder/a.diff,
+		target/folder/subdir/newdirectory/a.diff,
+		target/folder/subdir/a.diff,
+	],
+	level : 52
+	[
+		target/instaLogo.png,
+		target/newfolder/instaLogo 2.png,
+		target/instaLogo 3.png,
+		target/folder/subdir/newdirectory/instaLogo 3.png,
+		target/folder/subdir/instaLogo 3.png,
+	],
+	level : 53
+	[
+		target/data_set_train 2.xlsx,
+		target/folder/subdir/newdirectory/data_set_train.xlsx,
+		target/folder/subdir/data_set_train 3.xlsx,
+	],
+	level : 54
+	[
+		target/7fb78f2b6cb44eaef601.jpg,
+		target/folder/subdir/newdirectory/7fb78f2b6cb44eaef601.jpg,
+		target/folder/subdir/7fb78f2b6cb44eaef601.jpg,
+	],
+	level : 55
+	[
+		target/last_build_run.json,
+		target/newfolder/last_build_run 2.json,
+	],
+	level : 56
+	[
+		target/b.sgml,
+		target/folder/subdir/b.sgml,
+		target/folder/subdir/b.sgml 2,
+	],
+	level : 57
+	[
+		target/newfolder/a.lsm,
+		target/folder/subdir/newdirectory/a.lsm,
+	],
+	level : 58
+	[
+		target/newfolder/video2.mp4,
+		target/video.mp4,
+	],
+	level : 59
+	[
+		target/newfolder/JDBCUtil 3.java,
+		target/JDBCUtil.java,
+		target/folder/subdir/newdirectory/JDBCUtil 2.java,
+		target/folder/subdir/JDBCUtil.java,
+	],
+	level : 60
+	[
+		target/newfolder/collect2.gif,
+		target/collect.gif,
+	],
+	level : 61
+	[
+		target/newfolder/Runner 3.xcodeproj/project.xcworkspace/contents.xcworkspacedata,
+		target/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata,
+		target/folder/subdir/newdirectory/Runner 2.xcodeproj/project.xcworkspace/contents.xcworkspacedata,
+	],
+	level : 62
+	[
+		target/newfolder/Runner 3.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist,
+		target/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist,
+		target/folder/subdir/newdirectory/Runner 2.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist,
+	],
+	level : 63
+	[
+		target/newfolder/Runner 3.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings,
+		target/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings,
+		target/folder/subdir/newdirectory/Runner 2.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings,
+	],
+	level : 64
+	[
+		target/newfolder/Runner 3.xcodeproj/project.pbxproj,
+		target/Runner.xcodeproj/project.pbxproj,
+		target/folder/subdir/newdirectory/Runner 2.xcodeproj/project.pbxproj,
+	],
+	level : 65
+	[
+		target/newfolder/Runner 3.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme,
+		target/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme,
+		target/folder/subdir/newdirectory/Runner 2.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme,
+	],
+	level : 66
+	[
+		target/newfolder/win32_window 2.h,
+		target/win32_window.h,
+	],
+	level : 67
+	[
+		target/newfolder/manifest.json,
+		target/folder/subdir/newdirectory/manifest.json,
+		target/folder/subdir/manifest.json,
+	],
+	level : 68
+	[
+		target/newfolder/W2_Classwork.pdf,
+		target/W2_Classwork.pdf,
+		target/folder/subdir/newdirectory/W2_Classwork.pdf,
+	],
+	level : 69
+	[
+		target/newfolder/MaterialIcons-Regular.otf,
+		target/folder/MaterialIcons-Regular.otf,
+		target/folder/subdir/newdirectory/MaterialIcons-Regular.otf,
+	],
+	level : 70
+	[
+		target/newfolder/symbolize_win32.inc,
+		target/symbolize_win32.inc,
+		target/folder/subdir/newdirectory/symbolize_win32.inc,
+		target/folder/subdir/symbolize_win32.inc,
 		target/folder/subdir/symbolize_win32.inc 2,
 	],
-	level : 210
+	level : 71
 	[
+		target/newfolder/4f2a58af27abc49ecf55570043bbf938.cache.dill.track.dill,
+		target/folder/4f2a58af27abc49ecf55570043bbf938.cache.dill.track.dill,
+		target/folder/subdir/4f2a58af27abc49ecf55570043bbf938.cache.dill.track.dill,
+	],
+	level : 72
+	[
+		target/newfolder/Arita-buriM-subset.woff,
+		target/folder/subdir/newdirectory/Arita-buriM-subset.woff,
+		target/folder/Arita-buriM-subset.woff,
+	],
+	level : 73
+	[
+		target/newfolder/gen_localizations.stamp,
+		target/newfolder/gen_localizations.stamp 3,
+		target/gen_localizations.stamp,
+		target/folder/subdir/newdirectory/gen_localizations.stamp,
+		target/folder/subdir/gen_localizations.stamp 2,
+		target/folder/gen_localizations.stamp,
+	],
+	level : 74
+	[
+		target/newfolder/d.jpg,
+		target/d.jpg,
+		target/folder/subdir/newdirectory/d.jpg,
+		target/folder/subdir/d.jpg,
+	],
+	level : 75
+	[
+		target/newfolder/main 2.dart,
+	],
+	level : 76
+	[
+		target/newfolder/kernel_blob 3.bin,
+		target/folder/subdir/newdirectory/kernel_blob 2.bin,
+		target/folder/subdir/kernel_blob.bin,
+	],
+	level : 77
+	[
+		target/findeq_ver3.c,
+	],
+	level : 78
+	[
+		target/modified_copied2.hwp,
+		target/folder/subdir/newdirectory/modify.hwp,
+		target/folder/modify_copied.hwp,
+	],
+	level : 79
+	[
+		target/.vscode/c_cpp_properties.json,
+	],
+	level : 80
+	[
+		target/.vscode/settings.json,
+	],
+	level : 81
+	[
+		target/analysis_options.yaml,
+		target/folder/analysis_options 2.yaml,
+	],
+	level : 82
+	[
+		target/fileornot.c,
+		target/folder/fileornot_same.c,
+		target/folder/fileornot_copied.c,
+	],
+	level : 83
+	[
+		target/algorithm_copied.pdf,
+		target/folder/algorithm.pdf,
+	],
+	level : 84
+	[
+		target/homework.ipynb,
+		target/folder/subdir/newdirectory/homework.ipynb,
 		target/folder/subdir/homework.ipynb,
 		target/folder/homework_copied.ipynb,
 	],
-	level : 211
+	level : 85
 	[
-		target/folder/subdir/b.sh,
-	],
-	level : 212
-	[
+		target/hw1_22000141.cpp,
+		target/folder/subdir/newdirectory/hw1_22000141.cpp,
 		target/folder/subdir/hw1_22000141.cpp,
 	],
-	level : 213
+	level : 86
 	[
-		target/folder/subdir/final_2.docx,
+		target/discrete_math.pdf,
+		target/folder/subdir/discrete_math_copied.pdf,
 	],
-	level : 214
+	level : 87
 	[
-		target/folder/subdir/JDBCUtil.java,
+		target/findeq4.c,
 	],
-	level : 215
+	level : 88
 	[
-		target/folder/subdir/kernel_blob.bin,
+		target/btn-stop-pc-gray.png,
+		target/folder/subdir/btn-stop-pc-gray 2.png,
 	],
-	level : 216
+	level : 89
 	[
-		target/folder/subdir/NOTICES.Z,
+		target/findeq_ver4.c,
 	],
-	level : 217
+	level : 90
 	[
-		target/folder/subdir/archive.zip,
+		target/findeq,
 	],
-	level : 218
+	level : 91
 	[
-		target/folder/Arita-buriM-subset.woff,
+		target/jquery-3.1.1.min.js,
+		target/folder/subdir/newdirectory/jquery-3.1.1.min.js,
+		target/folder/subdir/jquery-3.1.1.min.js,
+		target/folder/jquery-3.1.1.min.js,
 	],
-	level : 219
+	level : 92
 	[
-		target/folder/Flutter-Debug 2.xcconfig,
-	],
-	level : 220
-	[
-		target/folder/output_copied.txt,
-	],
-	level : 221
-	[
-		target/folder/NOTICES.Z,
-	],
-	level : 222
-	[
-		target/data.txt,
-		target/folder/algorithm.pdf,
-		target/folder/subdir/4f2a58af27abc49ecf55570043bbf938.cache.dill.track.dill,
-	],
-	level : 223
-	[
-		target/win32_window.h,
+		target/d.htm,
+		target/folder/subdir/newdirectory/d.htm,
+		target/folder/subdir/d.htm,
+		target/folder/d.htm,
+		target/folder/subdir/d.htm,
+		target/folder/d.htm,
+		target/folder/d.htm,
 	],
 ]

@@ -159,12 +159,13 @@ void *compare_files_thread(void *arg)
     
     for (int i = 0 ; i < args->file_count ; i++)
     {
-        pthread_mutex_lock(&starter_lock);
+        pthread_mutex_lock(&starter_lock) ;
         thread_cnt = args->num_threads ;
         if (args->file_list[i].flag != 0)
         {
             pthread_mutex_unlock(&starter_lock) ;
-            continue ;
+            if (args->file_list[i].flag != dup_cnt - 1) 
+                continue ;
         }
         else
         {
@@ -173,50 +174,34 @@ void *compare_files_thread(void *arg)
             diff_line->diff = (file_list_ptr) add_file_to_list(args->file_list[i].filepath) ;
             diff_line = diff_line->diff ;
             same_line = diff_line ;
+            pthread_mutex_unlock(&starter_lock) ;
         }
-        pthread_mutex_unlock(&starter_lock) ;
 
         // 이 스레드가 담당할 파일 범위를 계산
         start = i + 1 + args->thread_id * (args->file_count - i - 1) / args->num_threads ;
         end = i + 1 + (args->thread_id + 1) * (args->file_count - i - 1) / args->num_threads ;
-        
+        printf("1") ;
         for (int j = start ; j < end ; j++)
         {   // j를 i 이후의 파일을 가리키도록 초기화
             // 두 파일이 같은지 검사한다.
             if (are_files_equal(args->file_list[i].filepath, args->file_list[j].filepath))
             {
                 printf("'%s' and '%s' are equal, thread number: %d\n", args->file_list[i].filepath, args->file_list[j].filepath, args->thread_id) ;
-                args->file_list[j].flag = flag_cnt ;
                 
                 pthread_mutex_lock(&lock);
+                args->file_list[j].flag = flag_cnt ;
                 same_line->same = (file_list_ptr) add_file_to_list(args->file_list[j].filepath) ;
                 same_line = same_line->same ;
                 pthread_mutex_unlock(&lock) ;
             }
-            // printf("thread number: %d\n", args->thread_id) ;
         }
-    //     pthread_mutex_lock(&termination_lock);
-    //     thread_cnt--;
-    //     printf("thread number: %d, %d : %d, %d\n", args->thread_id, thread_cnt, start, end);
-    //     if (thread_cnt == 0) {
-    //         pthread_cond_signal(&termination_cond);
-    //     }
-    //     pthread_mutex_unlock(&termination_lock);
-
-    //    //if (thread_cnt != 0) { // signal을 보내는 쓰레드가 없으면 대기하지 않음
-    //         pthread_mutex_lock(&termination_lock);
-    //         //while (thread_cnt != 0) {
-    //             pthread_cond_wait(&termination_cond, &termination_lock);
-    //         //}
-    //         pthread_mutex_unlock(&termination_lock);
-    //     //}
         
-        pthread_mutex_lock(&termination_lock);
-        thread_cnt--;
-        printf("thread number: %d, %d : %d, %d\n", args->thread_id, thread_cnt, start, end);
-        pthread_mutex_unlock(&termination_lock);
+        pthread_mutex_lock(&termination_lock) ;
+        thread_cnt-- ;
+        // printf("thread number: %d, %d : %d, %d\n", args->thread_id, thread_cnt, start, end) ;
+        pthread_mutex_unlock(&termination_lock) ;
 
-        if (thread_cnt != 0) ;
+        while (thread_cnt > 0) ;
     }
     
     printf("Thread %d finished\n", args->thread_id) ;  // 스레드 작업 완료 시 메시지 출력
@@ -263,7 +248,7 @@ void check_files_in_dir(const char * dir_path, file_path file_list[], int * file
         else if (S_ISREG(statbuf.st_mode) && bound_size < statbuf.st_size)
         {
             // 만약 일반 파일이라면, 해당 파일 경로를 파일 목록에 추가한다.
-             strncpy(file_list[*file_count].filepath, full_path, MAX_PATH) ;
+            strncpy(file_list[*file_count].filepath, full_path, MAX_PATH) ;
             file_list[*file_count].flag = 0 ;
             (* file_count)++ ;
         }

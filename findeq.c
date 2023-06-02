@@ -4,7 +4,7 @@ pthread_mutex_t thread_lock = PTHREAD_MUTEX_INITIALIZER;;  // 쓰레드에 대�
 
 int main(int argc, char * argv[])
 {
-    printf("start the program. 👍\n");
+    printf("start the program. 👍\n") ;
     
     clock_t start, end ;
     double cpu_time_used ;

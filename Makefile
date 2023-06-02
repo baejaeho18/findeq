@@ -1,6 +1,6 @@
 findeq : findeq.c isEqual.c
 	gcc -o findeq findeq.c isEqual.c -pthread
-	./findeq -t=5 -m=10 -o=output.txt target
+	./findeq -t=10 -m=1 -o=output.txt target
 
 findeq2 : findeq_ver2.c
 	gcc -o findeq2 findeq_ver2.c -pthread

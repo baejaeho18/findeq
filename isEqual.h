@@ -42,9 +42,8 @@ struct _file_list
 typedef struct _file_list   file_list ;
 typedef struct _file_list * file_list_ptr;
 
-void * add_diff_file_to_list(char *filename) ;
-void * add_same_file_to_list(char *filename) ;
-
+void * add_file_to_list(char *filename) ;
+  
 void print_file_list() ;
 
 void handle_sigint() ;

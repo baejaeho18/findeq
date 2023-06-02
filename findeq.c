@@ -1,5 +1,7 @@
 #include "isEqual.h"
 
+pthread_mutex_t thread_lock = PTHREAD_MUTEX_INITIALIZER;;  // 쓰레드에 대한 락
+
 int main(int argc, char * argv[])
 {
     printf("start the program. 👍\n");
@@ -84,11 +86,13 @@ int main(int argc, char * argv[])
     // 모든 스레드가 끝날 때까지 기다림
     for (int i = 0 ; i < num_threads ; i++)
     {
+        pthread_mutex_lock(&thread_lock);
         if (pthread_join(threads[i], NULL) != 0)
         {
             perror("pthread_join") ;
             return EXIT_FAILURE ;
         }
+        pthread_mutex_unlock(&thread_lock);
     }
     
     print_file_list();
